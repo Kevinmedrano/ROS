@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/kevin/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/kevin/catkin_ws/src/beginner_tutorials/include/**",
+                "/home/kevin/catkin_ws/src/holamundo/include/**",
+                "/home/kevin/catkin_ws/src/ros_essentials_cpp-master/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

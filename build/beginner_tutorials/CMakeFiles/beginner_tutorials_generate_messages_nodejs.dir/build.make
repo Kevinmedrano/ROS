@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/kevin/catkin_ws/build
 include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/progress.make
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/kevin/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/mensaje.js
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/kevin/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/tipo_servicio.js
 
 
 /home/kevin/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/mensaje.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
@@ -61,8 +62,14 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from beginner_tutorials/mensaje.msg"
 	cd /home/kevin/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/kevin/catkin_ws/src/beginner_tutorials/msg/mensaje.msg -Ibeginner_tutorials:/home/kevin/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/kevin/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
 
+/home/kevin/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/tipo_servicio.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/kevin/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/tipo_servicio.js: /home/kevin/catkin_ws/src/beginner_tutorials/srv/tipo_servicio.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from beginner_tutorials/tipo_servicio.srv"
+	cd /home/kevin/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/kevin/catkin_ws/src/beginner_tutorials/srv/tipo_servicio.srv -Ibeginner_tutorials:/home/kevin/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/kevin/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv
+
 beginner_tutorials_generate_messages_nodejs: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs
 beginner_tutorials_generate_messages_nodejs: /home/kevin/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/mensaje.js
+beginner_tutorials_generate_messages_nodejs: /home/kevin/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/tipo_servicio.js
 beginner_tutorials_generate_messages_nodejs: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/build.make
 
 .PHONY : beginner_tutorials_generate_messages_nodejs

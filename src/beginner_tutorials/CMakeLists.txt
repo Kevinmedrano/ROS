@@ -54,11 +54,11 @@ find_package(catkin REQUIRED COMPONENTS
  )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
+ add_service_files(
+   FILES
+   tipo_servicio.srv
 #   Service2.srv
-# )
+ )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -138,6 +138,10 @@ include_directories(
 add_executable(nodo_emisor src/nodo_emisor.cpp)
 add_executable(nodo_receptor src/nodo_receptor.cpp)
 
+
+add_executable(nodo_servidor src/nodo_servidor.cpp)
+add_executable(nodo_cliente src/nodo_cliente.cpp)
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -153,6 +157,13 @@ target_link_libraries(nodo_emisor
    ${catkin_LIBRARIES}
  )
  target_link_libraries(nodo_receptor
+   ${catkin_LIBRARIES}
+ )
+
+target_link_libraries(nodo_servidor
+   ${catkin_LIBRARIES}
+ )
+ target_link_libraries(nodo_cliente
    ${catkin_LIBRARIES}
  )
 

@@ -8,9 +8,9 @@
 #include "std_msgs/String.h"
 
 // Topic messages callback
-void chatterCallback(const std_msgs::String::ConstPtr& msg)
+void funcionCallback(const std_msgs::String::ConstPtr& msg)
 {
-    ROS_INFO("[Listener] I heard: [%s]\n", msg->data.c_str());
+    ROS_INFO("He recibido un mensaje de test con elnumero: [%s]\n", msg->data.c_str());
 }
 
 int main(int argc, char **argv)
@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 
     // Subscribe to a given topic, in this case "chatter".
         //chatterCallback: is the name of the callback function that will be executed each time a message is received.
-    ros::Subscriber sub = node.subscribe("topic_mensaje", 1000, chatterCallback);
+    ros::Subscriber sub = node.subscribe("topic_mensaje", 1000, funcionCallback);
 
     // Enter a loop, pumping callbacks
     ros::spin();
