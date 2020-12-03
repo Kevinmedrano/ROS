@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+practicas/CMakeFiles/nodo_cliente.dir/rule:
+	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/nodo_cliente.dir/rule
+.PHONY : practicas/CMakeFiles/nodo_cliente.dir/rule
+
+# Convenience name for target.
+nodo_cliente: practicas/CMakeFiles/nodo_cliente.dir/rule
+
+.PHONY : nodo_cliente
+
+# fast build rule for target.
+nodo_cliente/fast:
+	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_cliente.dir/build.make practicas/CMakeFiles/nodo_cliente.dir/build
+.PHONY : nodo_cliente/fast
+
+# Convenience name for target.
 practicas/CMakeFiles/practicas_genpy.dir/rule:
 	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_genpy.dir/rule
 .PHONY : practicas/CMakeFiles/practicas_genpy.dir/rule
@@ -239,6 +254,21 @@ roscpp_generate_messages_py: practicas/CMakeFiles/roscpp_generate_messages_py.di
 roscpp_generate_messages_py/fast:
 	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_py.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
+
+# Convenience name for target.
+practicas/CMakeFiles/nodo_servidor.dir/rule:
+	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/nodo_servidor.dir/rule
+.PHONY : practicas/CMakeFiles/nodo_servidor.dir/rule
+
+# Convenience name for target.
+nodo_servidor: practicas/CMakeFiles/nodo_servidor.dir/rule
+
+.PHONY : nodo_servidor
+
+# fast build rule for target.
+nodo_servidor/fast:
+	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_servidor.dir/build.make practicas/CMakeFiles/nodo_servidor.dir/build
+.PHONY : nodo_servidor/fast
 
 # Convenience name for target.
 practicas/CMakeFiles/practicas_generate_messages_cpp.dir/rule:
@@ -615,6 +645,33 @@ practicas_geneus/fast:
 	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_geneus.dir/build.make practicas/CMakeFiles/practicas_geneus.dir/build
 .PHONY : practicas_geneus/fast
 
+src/nodo_cliente.o: src/nodo_cliente.cpp.o
+
+.PHONY : src/nodo_cliente.o
+
+# target to build an object file
+src/nodo_cliente.cpp.o:
+	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_cliente.dir/build.make practicas/CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.o
+.PHONY : src/nodo_cliente.cpp.o
+
+src/nodo_cliente.i: src/nodo_cliente.cpp.i
+
+.PHONY : src/nodo_cliente.i
+
+# target to preprocess a source file
+src/nodo_cliente.cpp.i:
+	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_cliente.dir/build.make practicas/CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.i
+.PHONY : src/nodo_cliente.cpp.i
+
+src/nodo_cliente.s: src/nodo_cliente.cpp.s
+
+.PHONY : src/nodo_cliente.s
+
+# target to generate assembly for a file
+src/nodo_cliente.cpp.s:
+	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_cliente.dir/build.make practicas/CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.s
+.PHONY : src/nodo_cliente.cpp.s
+
 src/nodo_emisor.o: src/nodo_emisor.cpp.o
 
 .PHONY : src/nodo_emisor.o
@@ -669,6 +726,33 @@ src/nodo_receptor.cpp.s:
 	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_receptor.dir/build.make practicas/CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.s
 .PHONY : src/nodo_receptor.cpp.s
 
+src/nodo_servidor.o: src/nodo_servidor.cpp.o
+
+.PHONY : src/nodo_servidor.o
+
+# target to build an object file
+src/nodo_servidor.cpp.o:
+	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_servidor.dir/build.make practicas/CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o
+.PHONY : src/nodo_servidor.cpp.o
+
+src/nodo_servidor.i: src/nodo_servidor.cpp.i
+
+.PHONY : src/nodo_servidor.i
+
+# target to preprocess a source file
+src/nodo_servidor.cpp.i:
+	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_servidor.dir/build.make practicas/CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.i
+.PHONY : src/nodo_servidor.cpp.i
+
+src/nodo_servidor.s: src/nodo_servidor.cpp.s
+
+.PHONY : src/nodo_servidor.s
+
+# target to generate assembly for a file
+src/nodo_servidor.cpp.s:
+	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_servidor.dir/build.make practicas/CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.s
+.PHONY : src/nodo_servidor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -681,12 +765,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... install/local"
+	@echo "... nodo_cliente"
 	@echo "... practicas_genpy"
 	@echo "... practicas_generate_messages_nodejs"
 	@echo "... practicas_genlisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... install/strip"
+	@echo "... nodo_servidor"
 	@echo "... practicas_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
@@ -712,12 +798,18 @@ help:
 	@echo "... nodo_receptor"
 	@echo "... nodo_emisor"
 	@echo "... practicas_geneus"
+	@echo "... src/nodo_cliente.o"
+	@echo "... src/nodo_cliente.i"
+	@echo "... src/nodo_cliente.s"
 	@echo "... src/nodo_emisor.o"
 	@echo "... src/nodo_emisor.i"
 	@echo "... src/nodo_emisor.s"
 	@echo "... src/nodo_receptor.o"
 	@echo "... src/nodo_receptor.i"
 	@echo "... src/nodo_receptor.s"
+	@echo "... src/nodo_servidor.o"
+	@echo "... src/nodo_servidor.i"
+	@echo "... src/nodo_servidor.s"
 .PHONY : help
 
 

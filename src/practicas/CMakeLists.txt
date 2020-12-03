@@ -138,8 +138,8 @@ include_directories(
 
 add_executable(nodo_emisor src/nodo_emisor.cpp)
 add_executable(nodo_receptor src/nodo_receptor.cpp)
-#add_executable(nodo_servidor src/nodo_servidor.cpp)
-#add_executable(nodo_cliente src/nodo_cliente.cpp)
+add_executable(nodo_servidor src/nodo_servidor.cpp)
+add_executable(nodo_cliente src/nodo_cliente.cpp)
 
 
 ## Rename C++ executable without prefix
@@ -164,7 +164,12 @@ target_link_libraries(nodo_emisor
 target_link_libraries(nodo_receptor
     ${catkin_LIBRARIES}
 )
-#target_link_libraries(nodo_servidor${catkin_LIBRARIES})target_link_libraries(nodo_cliente${catkin_LIBRARIES})
+target_link_libraries(nodo_servidor
+    ${catkin_LIBRARIES}
+)
+target_link_libraries(nodo_cliente
+    ${catkin_LIBRARIES}
+)
 
 
 

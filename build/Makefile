@@ -283,6 +283,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named nodo_cliente
+
+# Build rule for target.
+nodo_cliente: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_cliente
+.PHONY : nodo_cliente
+
+# fast build rule for target.
+nodo_cliente/fast:
+	$(MAKE) -f practicas/CMakeFiles/nodo_cliente.dir/build.make practicas/CMakeFiles/nodo_cliente.dir/build
+.PHONY : nodo_cliente/fast
+
+#=============================================================================
 # Target rules for targets named practicas_genpy
 
 # Build rule for target.
@@ -346,6 +359,19 @@ roscpp_generate_messages_py: cmake_check_build_system
 roscpp_generate_messages_py/fast:
 	$(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_py.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named nodo_servidor
+
+# Build rule for target.
+nodo_servidor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_servidor
+.PHONY : nodo_servidor
+
+# fast build rule for target.
+nodo_servidor/fast:
+	$(MAKE) -f practicas/CMakeFiles/nodo_servidor.dir/build.make practicas/CMakeFiles/nodo_servidor.dir/build
+.PHONY : nodo_servidor/fast
 
 #=============================================================================
 # Target rules for targets named practicas_generate_messages_cpp
@@ -694,11 +720,13 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... nodo_cliente"
 	@echo "... practicas_genpy"
 	@echo "... practicas_generate_messages_nodejs"
 	@echo "... practicas_genlisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_py"
+	@echo "... nodo_servidor"
 	@echo "... practicas_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
