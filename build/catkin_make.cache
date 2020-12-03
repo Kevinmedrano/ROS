@@ -1,2 +1,2 @@
-beginner_tutorials
--DCATKIN_DEVEL_PREFIX=/home/kevin/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kevin/catkin_ws/install -DCATKIN_WHITELIST_PACKAGES=beginner_tutorials -G Unix Makefiles
+practicas
+-DCATKIN_DEVEL_PREFIX=/home/kevin/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kevin/catkin_ws/install -DCATKIN_WHITELIST_PACKAGES=practicas -G Unix Makefiles

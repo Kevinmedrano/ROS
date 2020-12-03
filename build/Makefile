@@ -283,95 +283,43 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named nodo_servidor
+# Target rules for targets named practicas_genpy
 
 # Build rule for target.
-nodo_servidor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nodo_servidor
-.PHONY : nodo_servidor
+practicas_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_genpy
+.PHONY : practicas_genpy
 
 # fast build rule for target.
-nodo_servidor/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/nodo_servidor.dir/build.make beginner_tutorials/CMakeFiles/nodo_servidor.dir/build
-.PHONY : nodo_servidor/fast
+practicas_genpy/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_genpy.dir/build.make practicas/CMakeFiles/practicas_genpy.dir/build
+.PHONY : practicas_genpy/fast
 
 #=============================================================================
-# Target rules for targets named nodo_receptor
+# Target rules for targets named practicas_generate_messages_nodejs
 
 # Build rule for target.
-nodo_receptor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nodo_receptor
-.PHONY : nodo_receptor
+practicas_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages_nodejs
+.PHONY : practicas_generate_messages_nodejs
 
 # fast build rule for target.
-nodo_receptor/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/nodo_receptor.dir/build.make beginner_tutorials/CMakeFiles/nodo_receptor.dir/build
-.PHONY : nodo_receptor/fast
+practicas_generate_messages_nodejs/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_generate_messages_nodejs.dir/build.make practicas/CMakeFiles/practicas_generate_messages_nodejs.dir/build
+.PHONY : practicas_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named nodo_emisor
+# Target rules for targets named practicas_genlisp
 
 # Build rule for target.
-nodo_emisor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nodo_emisor
-.PHONY : nodo_emisor
+practicas_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_genlisp
+.PHONY : practicas_genlisp
 
 # fast build rule for target.
-nodo_emisor/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/nodo_emisor.dir/build.make beginner_tutorials/CMakeFiles/nodo_emisor.dir/build
-.PHONY : nodo_emisor/fast
-
-#=============================================================================
-# Target rules for targets named beginner_tutorials_genpy
-
-# Build rule for target.
-beginner_tutorials_genpy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_genpy
-.PHONY : beginner_tutorials_genpy
-
-# fast build rule for target.
-beginner_tutorials_genpy/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir/build
-.PHONY : beginner_tutorials_genpy/fast
-
-#=============================================================================
-# Target rules for targets named beginner_tutorials_gennodejs
-
-# Build rule for target.
-beginner_tutorials_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_gennodejs
-.PHONY : beginner_tutorials_gennodejs
-
-# fast build rule for target.
-beginner_tutorials_gennodejs/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_gennodejs.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_gennodejs.dir/build
-.PHONY : beginner_tutorials_gennodejs/fast
-
-#=============================================================================
-# Target rules for targets named beginner_tutorials_genlisp
-
-# Build rule for target.
-beginner_tutorials_genlisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_genlisp
-.PHONY : beginner_tutorials_genlisp
-
-# fast build rule for target.
-beginner_tutorials_genlisp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_genlisp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_genlisp.dir/build
-.PHONY : beginner_tutorials_genlisp/fast
-
-#=============================================================================
-# Target rules for targets named beginner_tutorials_generate_messages_lisp
-
-# Build rule for target.
-beginner_tutorials_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_generate_messages_lisp
-.PHONY : beginner_tutorials_generate_messages_lisp
-
-# fast build rule for target.
-beginner_tutorials_generate_messages_lisp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build
-.PHONY : beginner_tutorials_generate_messages_lisp/fast
+practicas_genlisp/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_genlisp.dir/build.make practicas/CMakeFiles/practicas_genlisp.dir/build
+.PHONY : practicas_genlisp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
@@ -383,34 +331,8 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/build.make beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f practicas/CMakeFiles/std_msgs_generate_messages_py.dir/build.make practicas/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named beginner_tutorials_generate_messages_py
-
-# Build rule for target.
-beginner_tutorials_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_generate_messages_py
-.PHONY : beginner_tutorials_generate_messages_py
-
-# fast build rule for target.
-beginner_tutorials_generate_messages_py/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/build
-.PHONY : beginner_tutorials_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named beginner_tutorials_generate_messages
-
-# Build rule for target.
-beginner_tutorials_generate_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_generate_messages
-.PHONY : beginner_tutorials_generate_messages
-
-# fast build rule for target.
-beginner_tutorials_generate_messages/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir/build
-.PHONY : beginner_tutorials_generate_messages/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_py
@@ -422,21 +344,21 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/roscpp_generate_messages_py.dir/build.make beginner_tutorials/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_py.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_eus
+# Target rules for targets named practicas_generate_messages_cpp
 
 # Build rule for target.
-rosgraph_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_eus
-.PHONY : rosgraph_msgs_generate_messages_eus
+practicas_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages_cpp
+.PHONY : practicas_generate_messages_cpp
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
+practicas_generate_messages_cpp/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_generate_messages_cpp.dir/build.make practicas/CMakeFiles/practicas_generate_messages_cpp.dir/build
+.PHONY : practicas_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_nodejs
@@ -448,7 +370,7 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f practicas/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make practicas/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -461,7 +383,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make beginner_tutorials/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -474,7 +396,7 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f practicas/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make practicas/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -487,7 +409,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make beginner_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f practicas/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make practicas/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -500,21 +422,8 @@ roscpp_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/roscpp_generate_messages_eus.dir/build.make beginner_tutorials/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	$(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_eus.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_nodejs
-
-# Build rule for target.
-std_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make beginner_tutorials/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_py
@@ -526,7 +435,7 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f practicas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make practicas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -539,7 +448,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f practicas/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make practicas/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -552,21 +461,47 @@ roscpp_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make beginner_tutorials/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	$(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named _beginner_tutorials_generate_messages_check_deps_mensaje
+# Target rules for targets named practicas_generate_messages_lisp
 
 # Build rule for target.
-_beginner_tutorials_generate_messages_check_deps_mensaje: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _beginner_tutorials_generate_messages_check_deps_mensaje
-.PHONY : _beginner_tutorials_generate_messages_check_deps_mensaje
+practicas_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages_lisp
+.PHONY : practicas_generate_messages_lisp
 
 # fast build rule for target.
-_beginner_tutorials_generate_messages_check_deps_mensaje/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_mensaje.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_mensaje.dir/build
-.PHONY : _beginner_tutorials_generate_messages_check_deps_mensaje/fast
+practicas_generate_messages_lisp/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_generate_messages_lisp.dir/build.make practicas/CMakeFiles/practicas_generate_messages_lisp.dir/build
+.PHONY : practicas_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_nodejs
+
+# Build rule for target.
+std_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f practicas/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make practicas/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named practicas_generate_messages_py
+
+# Build rule for target.
+practicas_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages_py
+.PHONY : practicas_generate_messages_py
+
+# fast build rule for target.
+practicas_generate_messages_py/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_generate_messages_py.dir/build.make practicas/CMakeFiles/practicas_generate_messages_py.dir/build
+.PHONY : practicas_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_lisp
@@ -578,7 +513,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make beginner_tutorials/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -591,21 +526,86 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make beginner_tutorials/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f practicas/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make practicas/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named beginner_tutorials_generate_messages_nodejs
+# Target rules for targets named practicas_generate_messages
 
 # Build rule for target.
-beginner_tutorials_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_generate_messages_nodejs
-.PHONY : beginner_tutorials_generate_messages_nodejs
+practicas_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages
+.PHONY : practicas_generate_messages
 
 # fast build rule for target.
-beginner_tutorials_generate_messages_nodejs/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/build
-.PHONY : beginner_tutorials_generate_messages_nodejs/fast
+practicas_generate_messages/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_generate_messages.dir/build.make practicas/CMakeFiles/practicas_generate_messages.dir/build
+.PHONY : practicas_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named _practicas_generate_messages_check_deps_mensajeTest
+
+# Build rule for target.
+_practicas_generate_messages_check_deps_mensajeTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _practicas_generate_messages_check_deps_mensajeTest
+.PHONY : _practicas_generate_messages_check_deps_mensajeTest
+
+# fast build rule for target.
+_practicas_generate_messages_check_deps_mensajeTest/fast:
+	$(MAKE) -f practicas/CMakeFiles/_practicas_generate_messages_check_deps_mensajeTest.dir/build.make practicas/CMakeFiles/_practicas_generate_messages_check_deps_mensajeTest.dir/build
+.PHONY : _practicas_generate_messages_check_deps_mensajeTest/fast
+
+#=============================================================================
+# Target rules for targets named practicas_gennodejs
+
+# Build rule for target.
+practicas_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_gennodejs
+.PHONY : practicas_gennodejs
+
+# fast build rule for target.
+practicas_gennodejs/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_gennodejs.dir/build.make practicas/CMakeFiles/practicas_gennodejs.dir/build
+.PHONY : practicas_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named _practicas_generate_messages_check_deps_tipo_servicio
+
+# Build rule for target.
+_practicas_generate_messages_check_deps_tipo_servicio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _practicas_generate_messages_check_deps_tipo_servicio
+.PHONY : _practicas_generate_messages_check_deps_tipo_servicio
+
+# fast build rule for target.
+_practicas_generate_messages_check_deps_tipo_servicio/fast:
+	$(MAKE) -f practicas/CMakeFiles/_practicas_generate_messages_check_deps_tipo_servicio.dir/build.make practicas/CMakeFiles/_practicas_generate_messages_check_deps_tipo_servicio.dir/build
+.PHONY : _practicas_generate_messages_check_deps_tipo_servicio/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_eus
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_eus
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_eus/fast:
+	$(MAKE) -f practicas/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make practicas/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+.PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named practicas_gencpp
+
+# Build rule for target.
+practicas_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_gencpp
+.PHONY : practicas_gencpp
+
+# fast build rule for target.
+practicas_gencpp/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_gencpp.dir/build.make practicas/CMakeFiles/practicas_gencpp.dir/build
+.PHONY : practicas_gencpp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
@@ -617,86 +617,60 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f practicas/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make practicas/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named _beginner_tutorials_generate_messages_check_deps_tipo_servicio
+# Target rules for targets named practicas_generate_messages_eus
 
 # Build rule for target.
-_beginner_tutorials_generate_messages_check_deps_tipo_servicio: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _beginner_tutorials_generate_messages_check_deps_tipo_servicio
-.PHONY : _beginner_tutorials_generate_messages_check_deps_tipo_servicio
+practicas_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages_eus
+.PHONY : practicas_generate_messages_eus
 
 # fast build rule for target.
-_beginner_tutorials_generate_messages_check_deps_tipo_servicio/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir/build
-.PHONY : _beginner_tutorials_generate_messages_check_deps_tipo_servicio/fast
+practicas_generate_messages_eus/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_generate_messages_eus.dir/build.make practicas/CMakeFiles/practicas_generate_messages_eus.dir/build
+.PHONY : practicas_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named beginner_tutorials_generate_messages_cpp
+# Target rules for targets named nodo_receptor
 
 # Build rule for target.
-beginner_tutorials_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_generate_messages_cpp
-.PHONY : beginner_tutorials_generate_messages_cpp
+nodo_receptor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_receptor
+.PHONY : nodo_receptor
 
 # fast build rule for target.
-beginner_tutorials_generate_messages_cpp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build
-.PHONY : beginner_tutorials_generate_messages_cpp/fast
+nodo_receptor/fast:
+	$(MAKE) -f practicas/CMakeFiles/nodo_receptor.dir/build.make practicas/CMakeFiles/nodo_receptor.dir/build
+.PHONY : nodo_receptor/fast
 
 #=============================================================================
-# Target rules for targets named nodo_cliente
+# Target rules for targets named nodo_emisor
 
 # Build rule for target.
-nodo_cliente: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nodo_cliente
-.PHONY : nodo_cliente
+nodo_emisor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_emisor
+.PHONY : nodo_emisor
 
 # fast build rule for target.
-nodo_cliente/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/nodo_cliente.dir/build.make beginner_tutorials/CMakeFiles/nodo_cliente.dir/build
-.PHONY : nodo_cliente/fast
+nodo_emisor/fast:
+	$(MAKE) -f practicas/CMakeFiles/nodo_emisor.dir/build.make practicas/CMakeFiles/nodo_emisor.dir/build
+.PHONY : nodo_emisor/fast
 
 #=============================================================================
-# Target rules for targets named beginner_tutorials_gencpp
+# Target rules for targets named practicas_geneus
 
 # Build rule for target.
-beginner_tutorials_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_gencpp
-.PHONY : beginner_tutorials_gencpp
+practicas_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_geneus
+.PHONY : practicas_geneus
 
 # fast build rule for target.
-beginner_tutorials_gencpp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/build
-.PHONY : beginner_tutorials_gencpp/fast
-
-#=============================================================================
-# Target rules for targets named beginner_tutorials_generate_messages_eus
-
-# Build rule for target.
-beginner_tutorials_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_generate_messages_eus
-.PHONY : beginner_tutorials_generate_messages_eus
-
-# fast build rule for target.
-beginner_tutorials_generate_messages_eus/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.dir/build
-.PHONY : beginner_tutorials_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named beginner_tutorials_geneus
-
-# Build rule for target.
-beginner_tutorials_geneus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_geneus
-.PHONY : beginner_tutorials_geneus
-
-# fast build rule for target.
-beginner_tutorials_geneus/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_geneus.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_geneus.dir/build
-.PHONY : beginner_tutorials_geneus/fast
+practicas_geneus/fast:
+	$(MAKE) -f practicas/CMakeFiles/practicas_geneus.dir/build.make practicas/CMakeFiles/practicas_geneus.dir/build
+.PHONY : practicas_geneus/fast
 
 # Help Target
 help:
@@ -720,38 +694,36 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... nodo_servidor"
-	@echo "... nodo_receptor"
-	@echo "... nodo_emisor"
-	@echo "... beginner_tutorials_genpy"
-	@echo "... beginner_tutorials_gennodejs"
-	@echo "... beginner_tutorials_genlisp"
-	@echo "... beginner_tutorials_generate_messages_lisp"
+	@echo "... practicas_genpy"
+	@echo "... practicas_generate_messages_nodejs"
+	@echo "... practicas_genlisp"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... beginner_tutorials_generate_messages_py"
-	@echo "... beginner_tutorials_generate_messages"
 	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... practicas_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... _beginner_tutorials_generate_messages_check_deps_mensaje"
+	@echo "... practicas_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... practicas_generate_messages_py"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
-	@echo "... beginner_tutorials_generate_messages_nodejs"
+	@echo "... practicas_generate_messages"
+	@echo "... _practicas_generate_messages_check_deps_mensajeTest"
+	@echo "... practicas_gennodejs"
+	@echo "... _practicas_generate_messages_check_deps_tipo_servicio"
+	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... practicas_gencpp"
 	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... _beginner_tutorials_generate_messages_check_deps_tipo_servicio"
-	@echo "... beginner_tutorials_generate_messages_cpp"
-	@echo "... nodo_cliente"
-	@echo "... beginner_tutorials_gencpp"
-	@echo "... beginner_tutorials_generate_messages_eus"
-	@echo "... beginner_tutorials_geneus"
+	@echo "... practicas_generate_messages_eus"
+	@echo "... nodo_receptor"
+	@echo "... nodo_emisor"
+	@echo "... practicas_geneus"
 .PHONY : help
 
 

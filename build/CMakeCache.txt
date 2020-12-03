@@ -34,7 +34,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=beginner_tutorials
+CATKIN_WHITELIST_PACKAGES:STRING=practicas
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -346,6 +346,12 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
+
+//Value Computed by CMake
+practicas_BINARY_DIR:STATIC=/home/kevin/catkin_ws/build/practicas
+
+//Value Computed by CMake
+practicas_SOURCE_DIR:STATIC=/home/kevin/catkin_ws/src/practicas
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
