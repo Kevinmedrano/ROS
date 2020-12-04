@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/catkin_ws/devel/include/practicas/tipo_servicio.h
+/home/kevin/catkin_ws/devel/.private/practicas/include/practicas/tipo_servicio.h
 ros/service_traits.h
 -
 practicas/tipo_servicioRequest.h
@@ -14,7 +14,7 @@ practicas/tipo_servicioRequest.h
 practicas/tipo_servicioResponse.h
 -
 
-/home/kevin/catkin_ws/devel/include/practicas/tipo_servicioRequest.h
+/home/kevin/catkin_ws/devel/.private/practicas/include/practicas/tipo_servicioRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/catkin_ws/devel/include/practicas/tipo_servicioResponse.h
+/home/kevin/catkin_ws/devel/.private/practicas/include/practicas/tipo_servicioResponse.h
 string
 -
 vector

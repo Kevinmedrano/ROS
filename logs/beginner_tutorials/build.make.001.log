@@ -1,0 +1,26 @@
+[  4%] [32mBuilding CXX object CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o[0m
+[35m[1mScanning dependencies of target nodo_receptor[0m
+[  9%] [32mBuilding CXX object CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.o[0m
+[35m[1mScanning dependencies of target nodo_emisor[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.o[0m
+[35m[1mScanning dependencies of target nodo_cliente[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.o[0m
+[01m[K/home/kevin/catkin_ws/src/beginner_tutorials/src/nodo_servidor.cpp:2:46:[m[K [01;31m[Kfatal error: [m[Kbeginner_tutorials/tipo_servicio.h: No existe el archivo o el directorio
+compilation terminated.
+CMakeFiles/nodo_servidor.dir/build.make:62: fallo en las instrucciones para el objetivo 'CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o'
+CMakeFiles/Makefile2:67: fallo en las instrucciones para el objetivo 'CMakeFiles/nodo_servidor.dir/all'
+make[2]: *** [CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/nodo_servidor.dir/all] Error 2
+make[1]: *** Se espera a que terminen otras tareas....
+[01m[K/home/kevin/catkin_ws/src/beginner_tutorials/src/nodo_cliente.cpp:2:46:[m[K [01;31m[Kfatal error: [m[Kbeginner_tutorials/tipo_servicio.h: No existe el archivo o el directorio
+compilation terminated.
+CMakeFiles/nodo_cliente.dir/build.make:62: fallo en las instrucciones para el objetivo 'CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.o'
+make[2]: *** [CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.o] Error 1
+make[1]: *** [CMakeFiles/nodo_cliente.dir/all] Error 2
+CMakeFiles/Makefile2:340: fallo en las instrucciones para el objetivo 'CMakeFiles/nodo_cliente.dir/all'
+[ 23%] [32m[1mLinking CXX executable /home/kevin/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/nodo_emisor[0m
+[ 28%] [32m[1mLinking CXX executable /home/kevin/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/nodo_receptor[0m
+[ 28%] Built target nodo_emisor
+[ 28%] Built target nodo_receptor
+Makefile:138: fallo en las instrucciones para el objetivo 'all'
+make: *** [all] Error 2

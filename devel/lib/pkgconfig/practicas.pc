@@ -1,8 +1,1 @@
-prefix=/home/kevin/catkin_ws/devel
-
-Name: practicas
-Description: Description of practicas
-Version: 0.0.0
-Cflags: -I/home/kevin/catkin_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: 
+/home/kevin/catkin_ws/devel/.private/practicas/lib/pkgconfig/practicas.pc

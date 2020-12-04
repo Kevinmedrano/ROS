@@ -1,7 +1,1 @@
-(cl:defpackage holamundo-msg
-  (:use )
-  (:export
-   "<IOTSENSOR>"
-   "IOTSENSOR"
-  ))
-
+/home/kevin/catkin_ws/devel/.private/holamundo/share/common-lisp/ros/holamundo/msg/_package.lisp

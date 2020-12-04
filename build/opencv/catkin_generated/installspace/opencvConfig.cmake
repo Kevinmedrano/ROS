@@ -68,7 +68,7 @@ set(opencv_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(opencv_SOURCE_PREFIX /home/kevin/catkin_ws/src/opencv)
-  set(opencv_DEVEL_PREFIX /home/kevin/catkin_ws/devel)
+  set(opencv_DEVEL_PREFIX /home/kevin/catkin_ws/devel/.private/opencv)
   set(opencv_INSTALL_PREFIX "")
   set(opencv_PREFIX ${opencv_DEVEL_PREFIX})
 else()

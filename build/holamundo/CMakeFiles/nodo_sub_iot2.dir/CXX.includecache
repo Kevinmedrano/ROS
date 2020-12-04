@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/catkin_ws/devel/include/holamundo/IoTSensor.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
 /home/kevin/catkin_ws/src/holamundo/src/iot_sub2.cpp
 ros/ros.h
 /home/kevin/catkin_ws/src/holamundo/src/ros/ros.h
@@ -234,10 +218,6 @@ boost/make_shared.hpp
 cstddef
 -
 memory
--
-
-/opt/ros/kinetic/include/ros/message_operations.h
-ostream
 -
 
 /opt/ros/kinetic/include/ros/message_traits.h

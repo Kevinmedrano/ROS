@@ -1,4 +1,1 @@
-(cl:in-package beginner_tutorials-msg)
-(cl:export '(NUMERO-VAL
-          NUMERO
-))
+/home/kevin/catkin_ws/devel/.private/beginner_tutorials/share/common-lisp/ros/beginner_tutorials/msg/_package_mensaje.lisp

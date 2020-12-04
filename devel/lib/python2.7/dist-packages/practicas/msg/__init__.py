@@ -1,1 +1,1 @@
-from ._mensajeTest import *
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/__init__.py

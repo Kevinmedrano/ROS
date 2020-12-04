@@ -1,4 +1,1 @@
-(cl:in-package practicas-msg)
-(cl:export '(NUMERO-VAL
-          NUMERO
-))
+/home/kevin/catkin_ws/devel/.private/practicas/share/common-lisp/ros/practicas/msg/_package_mensajeTest.lisp

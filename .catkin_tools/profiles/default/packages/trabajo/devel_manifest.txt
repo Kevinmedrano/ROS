@@ -1,0 +1,5 @@
+trabajo
+/home/kevin/catkin_ws/devel/.private/trabajo/cmake.lock /home/kevin/catkin_ws/devel/./cmake.lock
+/home/kevin/catkin_ws/devel/.private/trabajo/share/trabajo/cmake/trabajoConfig-version.cmake /home/kevin/catkin_ws/devel/share/trabajo/cmake/trabajoConfig-version.cmake
+/home/kevin/catkin_ws/devel/.private/trabajo/share/trabajo/cmake/trabajoConfig.cmake /home/kevin/catkin_ws/devel/share/trabajo/cmake/trabajoConfig.cmake
+/home/kevin/catkin_ws/devel/.private/trabajo/lib/pkgconfig/trabajo.pc /home/kevin/catkin_ws/devel/lib/pkgconfig/trabajo.pc

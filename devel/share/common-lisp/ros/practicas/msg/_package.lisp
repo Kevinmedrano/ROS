@@ -1,7 +1,1 @@
-(cl:defpackage practicas-msg
-  (:use )
-  (:export
-   "<MENSAJETEST>"
-   "MENSAJETEST"
-  ))
-
+/home/kevin/catkin_ws/devel/.private/practicas/share/common-lisp/ros/practicas/msg/_package.lisp

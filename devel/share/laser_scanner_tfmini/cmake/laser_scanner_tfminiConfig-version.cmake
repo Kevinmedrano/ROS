@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/laser_scanner_tfmini/share/laser_scanner_tfmini/cmake/laser_scanner_tfminiConfig-version.cmake

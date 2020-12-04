@@ -1,0 +1,5 @@
+opencv
+/home/kevin/catkin_ws/devel/.private/opencv/cmake.lock /home/kevin/catkin_ws/devel/./cmake.lock
+/home/kevin/catkin_ws/devel/.private/opencv/share/opencv/cmake/opencvConfig.cmake /home/kevin/catkin_ws/devel/share/opencv/cmake/opencvConfig.cmake
+/home/kevin/catkin_ws/devel/.private/opencv/share/opencv/cmake/opencvConfig-version.cmake /home/kevin/catkin_ws/devel/share/opencv/cmake/opencvConfig-version.cmake
+/home/kevin/catkin_ws/devel/.private/opencv/lib/pkgconfig/opencv.pc /home/kevin/catkin_ws/devel/lib/pkgconfig/opencv.pc

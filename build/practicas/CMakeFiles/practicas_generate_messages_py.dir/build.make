@@ -43,63 +43,63 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/kevin/catkin_ws/src/practicas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/catkin_ws/build
+CMAKE_BINARY_DIR = /home/kevin/catkin_ws/build/practicas
 
 # Utility rule file for practicas_generate_messages_py.
 
 # Include the progress variables for this target.
-include practicas/CMakeFiles/practicas_generate_messages_py.dir/progress.make
+include CMakeFiles/practicas_generate_messages_py.dir/progress.make
 
-practicas/CMakeFiles/practicas_generate_messages_py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py
-practicas/CMakeFiles/practicas_generate_messages_py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py
-practicas/CMakeFiles/practicas_generate_messages_py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/__init__.py
-practicas/CMakeFiles/practicas_generate_messages_py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/__init__.py
+CMakeFiles/practicas_generate_messages_py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py
+CMakeFiles/practicas_generate_messages_py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py
+CMakeFiles/practicas_generate_messages_py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/__init__.py
+CMakeFiles/practicas_generate_messages_py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/__init__.py
 
 
-/home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py: /home/kevin/catkin_ws/src/practicas/msg/mensajeTest.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG practicas/mensajeTest"
-	cd /home/kevin/catkin_ws/build/practicas && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/kevin/catkin_ws/src/practicas/msg/mensajeTest.msg -Ipracticas:/home/kevin/catkin_ws/src/practicas/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p practicas -o /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py: /home/kevin/catkin_ws/src/practicas/msg/mensajeTest.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/practicas/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG practicas/mensajeTest"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/kevin/catkin_ws/src/practicas/msg/mensajeTest.msg -Ipracticas:/home/kevin/catkin_ws/src/practicas/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p practicas -o /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg
 
-/home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py: /home/kevin/catkin_ws/src/practicas/srv/tipo_servicio.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV practicas/tipo_servicio"
-	cd /home/kevin/catkin_ws/build/practicas && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kevin/catkin_ws/src/practicas/srv/tipo_servicio.srv -Ipracticas:/home/kevin/catkin_ws/src/practicas/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p practicas -o /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py: /home/kevin/catkin_ws/src/practicas/srv/tipo_servicio.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/practicas/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV practicas/tipo_servicio"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kevin/catkin_ws/src/practicas/srv/tipo_servicio.srv -Ipracticas:/home/kevin/catkin_ws/src/practicas/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p practicas -o /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv
 
-/home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/__init__.py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py
-/home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/__init__.py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for practicas"
-	cd /home/kevin/catkin_ws/build/practicas && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg --initpy
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/__init__.py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/__init__.py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/practicas/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for practicas"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg --initpy
 
-/home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/__init__.py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py
-/home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/__init__.py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for practicas"
-	cd /home/kevin/catkin_ws/build/practicas && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv --initpy
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/__init__.py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/__init__.py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/practicas/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for practicas"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv --initpy
 
-practicas_generate_messages_py: practicas/CMakeFiles/practicas_generate_messages_py
-practicas_generate_messages_py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py
-practicas_generate_messages_py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py
-practicas_generate_messages_py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/msg/__init__.py
-practicas_generate_messages_py: /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/practicas/srv/__init__.py
-practicas_generate_messages_py: practicas/CMakeFiles/practicas_generate_messages_py.dir/build.make
+practicas_generate_messages_py: CMakeFiles/practicas_generate_messages_py
+practicas_generate_messages_py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/_mensajeTest.py
+practicas_generate_messages_py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/_tipo_servicio.py
+practicas_generate_messages_py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/msg/__init__.py
+practicas_generate_messages_py: /home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/__init__.py
+practicas_generate_messages_py: CMakeFiles/practicas_generate_messages_py.dir/build.make
 
 .PHONY : practicas_generate_messages_py
 
 # Rule to build all files generated by this target.
-practicas/CMakeFiles/practicas_generate_messages_py.dir/build: practicas_generate_messages_py
+CMakeFiles/practicas_generate_messages_py.dir/build: practicas_generate_messages_py
 
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_py.dir/build
+.PHONY : CMakeFiles/practicas_generate_messages_py.dir/build
 
-practicas/CMakeFiles/practicas_generate_messages_py.dir/clean:
-	cd /home/kevin/catkin_ws/build/practicas && $(CMAKE_COMMAND) -P CMakeFiles/practicas_generate_messages_py.dir/cmake_clean.cmake
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_py.dir/clean
+CMakeFiles/practicas_generate_messages_py.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/practicas_generate_messages_py.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/practicas_generate_messages_py.dir/clean
 
-practicas/CMakeFiles/practicas_generate_messages_py.dir/depend:
-	cd /home/kevin/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/catkin_ws/src /home/kevin/catkin_ws/src/practicas /home/kevin/catkin_ws/build /home/kevin/catkin_ws/build/practicas /home/kevin/catkin_ws/build/practicas/CMakeFiles/practicas_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_py.dir/depend
+CMakeFiles/practicas_generate_messages_py.dir/depend:
+	cd /home/kevin/catkin_ws/build/practicas && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/catkin_ws/src/practicas /home/kevin/catkin_ws/src/practicas /home/kevin/catkin_ws/build/practicas /home/kevin/catkin_ws/build/practicas /home/kevin/catkin_ws/build/practicas/CMakeFiles/practicas_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/practicas_generate_messages_py.dir/depend
 

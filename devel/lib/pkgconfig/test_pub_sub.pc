@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/test_pub_sub/lib/pkgconfig/test_pub_sub.pc

@@ -1,8 +1,1 @@
-
-"use strict";
-
-let tipo_servicio = require('./tipo_servicio.js')
-
-module.exports = {
-  tipo_servicio: tipo_servicio,
-};
+/home/kevin/catkin_ws/devel/.private/practicas/share/gennodejs/ros/practicas/srv/_index.js

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/practicas_generate_messages_cpp"
-  "/home/kevin/catkin_ws/devel/include/practicas/mensajeTest.h"
-  "/home/kevin/catkin_ws/devel/include/practicas/tipo_servicio.h"
+  "/home/kevin/catkin_ws/devel/.private/practicas/include/practicas/mensajeTest.h"
+  "/home/kevin/catkin_ws/devel/.private/practicas/include/practicas/tipo_servicio.h"
 )
 
 # Per-language clean rules from dependency scanning.

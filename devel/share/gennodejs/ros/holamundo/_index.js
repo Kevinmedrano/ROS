@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/kevin/catkin_ws/devel/.private/holamundo/share/gennodejs/ros/holamundo/_index.js

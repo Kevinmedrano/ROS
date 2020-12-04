@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/test_pub_sub/share/gennodejs/ros/test_pub_sub/_index.js

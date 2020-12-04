@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/pkgconfig/ros_essentials_cpp.pc

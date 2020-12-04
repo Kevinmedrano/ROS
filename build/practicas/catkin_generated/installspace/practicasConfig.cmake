@@ -68,7 +68,7 @@ set(practicas_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(practicas_SOURCE_PREFIX /home/kevin/catkin_ws/src/practicas)
-  set(practicas_DEVEL_PREFIX /home/kevin/catkin_ws/devel)
+  set(practicas_DEVEL_PREFIX /home/kevin/catkin_ws/devel/.private/practicas)
   set(practicas_INSTALL_PREFIX "")
   set(practicas_PREFIX ${practicas_DEVEL_PREFIX})
 else()

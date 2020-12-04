@@ -43,53 +43,53 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/kevin/catkin_ws/src/practicas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/catkin_ws/build
+CMAKE_BINARY_DIR = /home/kevin/catkin_ws/build/practicas
 
 # Utility rule file for practicas_generate_messages_eus.
 
 # Include the progress variables for this target.
-include practicas/CMakeFiles/practicas_generate_messages_eus.dir/progress.make
+include CMakeFiles/practicas_generate_messages_eus.dir/progress.make
 
-practicas/CMakeFiles/practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/share/roseus/ros/practicas/msg/mensajeTest.l
-practicas/CMakeFiles/practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/share/roseus/ros/practicas/srv/tipo_servicio.l
-practicas/CMakeFiles/practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/share/roseus/ros/practicas/manifest.l
+CMakeFiles/practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/msg/mensajeTest.l
+CMakeFiles/practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/srv/tipo_servicio.l
+CMakeFiles/practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/manifest.l
 
 
-/home/kevin/catkin_ws/devel/share/roseus/ros/practicas/msg/mensajeTest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/kevin/catkin_ws/devel/share/roseus/ros/practicas/msg/mensajeTest.l: /home/kevin/catkin_ws/src/practicas/msg/mensajeTest.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from practicas/mensajeTest.msg"
-	cd /home/kevin/catkin_ws/build/practicas && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/kevin/catkin_ws/src/practicas/msg/mensajeTest.msg -Ipracticas:/home/kevin/catkin_ws/src/practicas/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p practicas -o /home/kevin/catkin_ws/devel/share/roseus/ros/practicas/msg
+/home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/msg/mensajeTest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/msg/mensajeTest.l: /home/kevin/catkin_ws/src/practicas/msg/mensajeTest.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/practicas/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from practicas/mensajeTest.msg"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/kevin/catkin_ws/src/practicas/msg/mensajeTest.msg -Ipracticas:/home/kevin/catkin_ws/src/practicas/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p practicas -o /home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/msg
 
-/home/kevin/catkin_ws/devel/share/roseus/ros/practicas/srv/tipo_servicio.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/kevin/catkin_ws/devel/share/roseus/ros/practicas/srv/tipo_servicio.l: /home/kevin/catkin_ws/src/practicas/srv/tipo_servicio.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from practicas/tipo_servicio.srv"
-	cd /home/kevin/catkin_ws/build/practicas && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/kevin/catkin_ws/src/practicas/srv/tipo_servicio.srv -Ipracticas:/home/kevin/catkin_ws/src/practicas/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p practicas -o /home/kevin/catkin_ws/devel/share/roseus/ros/practicas/srv
+/home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/srv/tipo_servicio.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/srv/tipo_servicio.l: /home/kevin/catkin_ws/src/practicas/srv/tipo_servicio.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/practicas/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from practicas/tipo_servicio.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/kevin/catkin_ws/src/practicas/srv/tipo_servicio.srv -Ipracticas:/home/kevin/catkin_ws/src/practicas/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p practicas -o /home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/srv
 
-/home/kevin/catkin_ws/devel/share/roseus/ros/practicas/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for practicas"
-	cd /home/kevin/catkin_ws/build/practicas && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/kevin/catkin_ws/devel/share/roseus/ros/practicas practicas std_msgs
+/home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/catkin_ws/build/practicas/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for practicas"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas practicas std_msgs
 
-practicas_generate_messages_eus: practicas/CMakeFiles/practicas_generate_messages_eus
-practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/share/roseus/ros/practicas/msg/mensajeTest.l
-practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/share/roseus/ros/practicas/srv/tipo_servicio.l
-practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/share/roseus/ros/practicas/manifest.l
-practicas_generate_messages_eus: practicas/CMakeFiles/practicas_generate_messages_eus.dir/build.make
+practicas_generate_messages_eus: CMakeFiles/practicas_generate_messages_eus
+practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/msg/mensajeTest.l
+practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/srv/tipo_servicio.l
+practicas_generate_messages_eus: /home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/manifest.l
+practicas_generate_messages_eus: CMakeFiles/practicas_generate_messages_eus.dir/build.make
 
 .PHONY : practicas_generate_messages_eus
 
 # Rule to build all files generated by this target.
-practicas/CMakeFiles/practicas_generate_messages_eus.dir/build: practicas_generate_messages_eus
+CMakeFiles/practicas_generate_messages_eus.dir/build: practicas_generate_messages_eus
 
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_eus.dir/build
+.PHONY : CMakeFiles/practicas_generate_messages_eus.dir/build
 
-practicas/CMakeFiles/practicas_generate_messages_eus.dir/clean:
-	cd /home/kevin/catkin_ws/build/practicas && $(CMAKE_COMMAND) -P CMakeFiles/practicas_generate_messages_eus.dir/cmake_clean.cmake
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_eus.dir/clean
+CMakeFiles/practicas_generate_messages_eus.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/practicas_generate_messages_eus.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/practicas_generate_messages_eus.dir/clean
 
-practicas/CMakeFiles/practicas_generate_messages_eus.dir/depend:
-	cd /home/kevin/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/catkin_ws/src /home/kevin/catkin_ws/src/practicas /home/kevin/catkin_ws/build /home/kevin/catkin_ws/build/practicas /home/kevin/catkin_ws/build/practicas/CMakeFiles/practicas_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_eus.dir/depend
+CMakeFiles/practicas_generate_messages_eus.dir/depend:
+	cd /home/kevin/catkin_ws/build/practicas && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/catkin_ws/src/practicas /home/kevin/catkin_ws/src/practicas /home/kevin/catkin_ws/build/practicas /home/kevin/catkin_ws/build/practicas /home/kevin/catkin_ws/build/practicas/CMakeFiles/practicas_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/practicas_generate_messages_eus.dir/depend
 

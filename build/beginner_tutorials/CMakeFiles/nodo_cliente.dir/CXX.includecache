@@ -6,46 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/catkin_ws/devel/include/beginner_tutorials/tipo_servicio.h
-ros/service_traits.h
--
-beginner_tutorials/tipo_servicioRequest.h
--
-beginner_tutorials/tipo_servicioResponse.h
--
-
-/home/kevin/catkin_ws/devel/include/beginner_tutorials/tipo_servicioRequest.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
-/home/kevin/catkin_ws/devel/include/beginner_tutorials/tipo_servicioResponse.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
 /home/kevin/catkin_ws/src/beginner_tutorials/src/nodo_cliente.cpp
 ros/ros.h
 /home/kevin/catkin_ws/src/beginner_tutorials/src/ros/ros.h
@@ -260,10 +220,6 @@ boost/make_shared.hpp
 cstddef
 -
 memory
--
-
-/opt/ros/kinetic/include/ros/message_operations.h
-ostream
 -
 
 /opt/ros/kinetic/include/ros/message_traits.h

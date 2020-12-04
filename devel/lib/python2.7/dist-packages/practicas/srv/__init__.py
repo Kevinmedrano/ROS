@@ -1,1 +1,1 @@
-from ._tipo_servicio import *
+/home/kevin/catkin_ws/devel/.private/practicas/lib/python2.7/dist-packages/practicas/srv/__init__.py

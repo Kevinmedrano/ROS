@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/laser_scanner_tfmini/lib/pkgconfig/laser_scanner_tfmini.pc

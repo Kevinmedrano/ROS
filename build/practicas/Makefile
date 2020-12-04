@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/kevin/catkin_ws/src/practicas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/catkin_ws/build
+CMAKE_BINARY_DIR = /home/kevin/catkin_ws/build/practicas
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kevin/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/catkin_ws/build/CMakeFiles /home/kevin/catkin_ws/build/practicas/CMakeFiles/progress.marks
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/catkin_ws/build/practicas/CMakeFiles /home/kevin/catkin_ws/build/practicas/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/catkin_ws/build/practicas/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/clean
+	$(MAKE) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -152,498 +152,551 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/preinstall
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/preinstall
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kevin/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-practicas/CMakeFiles/nodo_cliente.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/nodo_cliente.dir/rule
-.PHONY : practicas/CMakeFiles/nodo_cliente.dir/rule
+#=============================================================================
+# Target rules for targets named nodo_cliente
 
-# Convenience name for target.
-nodo_cliente: practicas/CMakeFiles/nodo_cliente.dir/rule
-
+# Build rule for target.
+nodo_cliente: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_cliente
 .PHONY : nodo_cliente
 
 # fast build rule for target.
 nodo_cliente/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_cliente.dir/build.make practicas/CMakeFiles/nodo_cliente.dir/build
+	$(MAKE) -f CMakeFiles/nodo_cliente.dir/build.make CMakeFiles/nodo_cliente.dir/build
 .PHONY : nodo_cliente/fast
 
-# Convenience name for target.
-practicas/CMakeFiles/practicas_genpy.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_genpy.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_genpy.dir/rule
+#=============================================================================
+# Target rules for targets named practicas_genpy
 
-# Convenience name for target.
-practicas_genpy: practicas/CMakeFiles/practicas_genpy.dir/rule
-
+# Build rule for target.
+practicas_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_genpy
 .PHONY : practicas_genpy
 
 # fast build rule for target.
 practicas_genpy/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_genpy.dir/build.make practicas/CMakeFiles/practicas_genpy.dir/build
+	$(MAKE) -f CMakeFiles/practicas_genpy.dir/build.make CMakeFiles/practicas_genpy.dir/build
 .PHONY : practicas_genpy/fast
 
-# Convenience name for target.
-practicas/CMakeFiles/practicas_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_generate_messages_nodejs.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_nodejs.dir/rule
+#=============================================================================
+# Target rules for targets named practicas_generate_messages_nodejs
 
-# Convenience name for target.
-practicas_generate_messages_nodejs: practicas/CMakeFiles/practicas_generate_messages_nodejs.dir/rule
-
+# Build rule for target.
+practicas_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages_nodejs
 .PHONY : practicas_generate_messages_nodejs
 
 # fast build rule for target.
 practicas_generate_messages_nodejs/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_generate_messages_nodejs.dir/build.make practicas/CMakeFiles/practicas_generate_messages_nodejs.dir/build
+	$(MAKE) -f CMakeFiles/practicas_generate_messages_nodejs.dir/build.make CMakeFiles/practicas_generate_messages_nodejs.dir/build
 .PHONY : practicas_generate_messages_nodejs/fast
 
-# Convenience name for target.
-practicas/CMakeFiles/practicas_genlisp.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_genlisp.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_genlisp.dir/rule
+#=============================================================================
+# Target rules for targets named practicas_genlisp
 
-# Convenience name for target.
-practicas_genlisp: practicas/CMakeFiles/practicas_genlisp.dir/rule
-
+# Build rule for target.
+practicas_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_genlisp
 .PHONY : practicas_genlisp
 
 # fast build rule for target.
 practicas_genlisp/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_genlisp.dir/build.make practicas/CMakeFiles/practicas_genlisp.dir/build
+	$(MAKE) -f CMakeFiles/practicas_genlisp.dir/build.make CMakeFiles/practicas_genlisp.dir/build
 .PHONY : practicas_genlisp/fast
 
-# Convenience name for target.
-practicas/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : practicas/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: practicas/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/std_msgs_generate_messages_py.dir/build.make practicas/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : practicas/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: practicas/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_py.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/nodo_servidor.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/nodo_servidor.dir/rule
-.PHONY : practicas/CMakeFiles/nodo_servidor.dir/rule
-
-# Convenience name for target.
-nodo_servidor: practicas/CMakeFiles/nodo_servidor.dir/rule
-
-.PHONY : nodo_servidor
-
-# fast build rule for target.
-nodo_servidor/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_servidor.dir/build.make practicas/CMakeFiles/nodo_servidor.dir/build
-.PHONY : nodo_servidor/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/practicas_generate_messages_cpp.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_generate_messages_cpp.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-practicas_generate_messages_cpp: practicas/CMakeFiles/practicas_generate_messages_cpp.dir/rule
-
-.PHONY : practicas_generate_messages_cpp
-
-# fast build rule for target.
-practicas_generate_messages_cpp/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_generate_messages_cpp.dir/build.make practicas/CMakeFiles/practicas_generate_messages_cpp.dir/build
-.PHONY : practicas_generate_messages_cpp/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : practicas/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: practicas/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make practicas/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : practicas/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: practicas/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : practicas/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: practicas/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make practicas/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : practicas/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: practicas/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make practicas/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : practicas/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_eus: practicas/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_eus.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : practicas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: practicas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make practicas/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : practicas/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: practicas/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make practicas/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : practicas/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_nodejs: practicas/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-.PHONY : roscpp_generate_messages_nodejs
-
-# fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/practicas_generate_messages_lisp.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_generate_messages_lisp.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-practicas_generate_messages_lisp: practicas/CMakeFiles/practicas_generate_messages_lisp.dir/rule
-
-.PHONY : practicas_generate_messages_lisp
-
-# fast build rule for target.
-practicas_generate_messages_lisp/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_generate_messages_lisp.dir/build.make practicas/CMakeFiles/practicas_generate_messages_lisp.dir/build
-.PHONY : practicas_generate_messages_lisp/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : practicas/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: practicas/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make practicas/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/practicas_generate_messages_py.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_generate_messages_py.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_py.dir/rule
-
-# Convenience name for target.
-practicas_generate_messages_py: practicas/CMakeFiles/practicas_generate_messages_py.dir/rule
-
-.PHONY : practicas_generate_messages_py
-
-# fast build rule for target.
-practicas_generate_messages_py/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_generate_messages_py.dir/build.make practicas/CMakeFiles/practicas_generate_messages_py.dir/build
-.PHONY : practicas_generate_messages_py/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : practicas/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: practicas/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make practicas/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : practicas/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: practicas/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make practicas/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/practicas_generate_messages.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_generate_messages.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_generate_messages.dir/rule
-
-# Convenience name for target.
-practicas_generate_messages: practicas/CMakeFiles/practicas_generate_messages.dir/rule
-
-.PHONY : practicas_generate_messages
-
-# fast build rule for target.
-practicas_generate_messages/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_generate_messages.dir/build.make practicas/CMakeFiles/practicas_generate_messages.dir/build
-.PHONY : practicas_generate_messages/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/_practicas_generate_messages_check_deps_mensajeTest.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/_practicas_generate_messages_check_deps_mensajeTest.dir/rule
-.PHONY : practicas/CMakeFiles/_practicas_generate_messages_check_deps_mensajeTest.dir/rule
-
-# Convenience name for target.
-_practicas_generate_messages_check_deps_mensajeTest: practicas/CMakeFiles/_practicas_generate_messages_check_deps_mensajeTest.dir/rule
-
-.PHONY : _practicas_generate_messages_check_deps_mensajeTest
-
-# fast build rule for target.
-_practicas_generate_messages_check_deps_mensajeTest/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/_practicas_generate_messages_check_deps_mensajeTest.dir/build.make practicas/CMakeFiles/_practicas_generate_messages_check_deps_mensajeTest.dir/build
-.PHONY : _practicas_generate_messages_check_deps_mensajeTest/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/practicas_gennodejs.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_gennodejs.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_gennodejs.dir/rule
-
-# Convenience name for target.
-practicas_gennodejs: practicas/CMakeFiles/practicas_gennodejs.dir/rule
-
-.PHONY : practicas_gennodejs
-
-# fast build rule for target.
-practicas_gennodejs/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_gennodejs.dir/build.make practicas/CMakeFiles/practicas_gennodejs.dir/build
-.PHONY : practicas_gennodejs/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/_practicas_generate_messages_check_deps_tipo_servicio.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/_practicas_generate_messages_check_deps_tipo_servicio.dir/rule
-.PHONY : practicas/CMakeFiles/_practicas_generate_messages_check_deps_tipo_servicio.dir/rule
-
-# Convenience name for target.
-_practicas_generate_messages_check_deps_tipo_servicio: practicas/CMakeFiles/_practicas_generate_messages_check_deps_tipo_servicio.dir/rule
-
-.PHONY : _practicas_generate_messages_check_deps_tipo_servicio
-
-# fast build rule for target.
-_practicas_generate_messages_check_deps_tipo_servicio/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/_practicas_generate_messages_check_deps_tipo_servicio.dir/build.make practicas/CMakeFiles/_practicas_generate_messages_check_deps_tipo_servicio.dir/build
-.PHONY : _practicas_generate_messages_check_deps_tipo_servicio/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : practicas/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: practicas/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make practicas/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/practicas_gencpp.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_gencpp.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_gencpp.dir/rule
-
-# Convenience name for target.
-practicas_gencpp: practicas/CMakeFiles/practicas_gencpp.dir/rule
-
-.PHONY : practicas_gencpp
-
-# fast build rule for target.
-practicas_gencpp/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_gencpp.dir/build.make practicas/CMakeFiles/practicas_gencpp.dir/build
-.PHONY : practicas_gencpp/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : practicas/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: practicas/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make practicas/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/practicas_generate_messages_eus.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_generate_messages_eus.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-practicas_generate_messages_eus: practicas/CMakeFiles/practicas_generate_messages_eus.dir/rule
-
-.PHONY : practicas_generate_messages_eus
-
-# fast build rule for target.
-practicas_generate_messages_eus/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_generate_messages_eus.dir/build.make practicas/CMakeFiles/practicas_generate_messages_eus.dir/build
-.PHONY : practicas_generate_messages_eus/fast
-
-# Convenience name for target.
-practicas/CMakeFiles/nodo_receptor.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/nodo_receptor.dir/rule
-.PHONY : practicas/CMakeFiles/nodo_receptor.dir/rule
-
-# Convenience name for target.
-nodo_receptor: practicas/CMakeFiles/nodo_receptor.dir/rule
-
+#=============================================================================
+# Target rules for targets named nodo_receptor
+
+# Build rule for target.
+nodo_receptor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_receptor
 .PHONY : nodo_receptor
 
 # fast build rule for target.
 nodo_receptor/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_receptor.dir/build.make practicas/CMakeFiles/nodo_receptor.dir/build
+	$(MAKE) -f CMakeFiles/nodo_receptor.dir/build.make CMakeFiles/nodo_receptor.dir/build
 .PHONY : nodo_receptor/fast
 
-# Convenience name for target.
-practicas/CMakeFiles/nodo_emisor.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/nodo_emisor.dir/rule
-.PHONY : practicas/CMakeFiles/nodo_emisor.dir/rule
+#=============================================================================
+# Target rules for targets named nodo_emisor
 
-# Convenience name for target.
-nodo_emisor: practicas/CMakeFiles/nodo_emisor.dir/rule
-
+# Build rule for target.
+nodo_emisor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_emisor
 .PHONY : nodo_emisor
 
 # fast build rule for target.
 nodo_emisor/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_emisor.dir/build.make practicas/CMakeFiles/nodo_emisor.dir/build
+	$(MAKE) -f CMakeFiles/nodo_emisor.dir/build.make CMakeFiles/nodo_emisor.dir/build
 .PHONY : nodo_emisor/fast
 
-# Convenience name for target.
-practicas/CMakeFiles/practicas_geneus.dir/rule:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 practicas/CMakeFiles/practicas_geneus.dir/rule
-.PHONY : practicas/CMakeFiles/practicas_geneus.dir/rule
+#=============================================================================
+# Target rules for targets named practicas_geneus
 
-# Convenience name for target.
-practicas_geneus: practicas/CMakeFiles/practicas_geneus.dir/rule
-
+# Build rule for target.
+practicas_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_geneus
 .PHONY : practicas_geneus
 
 # fast build rule for target.
 practicas_geneus/fast:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/practicas_geneus.dir/build.make practicas/CMakeFiles/practicas_geneus.dir/build
+	$(MAKE) -f CMakeFiles/practicas_geneus.dir/build.make CMakeFiles/practicas_geneus.dir/build
 .PHONY : practicas_geneus/fast
+
+#=============================================================================
+# Target rules for targets named nodo_servidor
+
+# Build rule for target.
+nodo_servidor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_servidor
+.PHONY : nodo_servidor
+
+# fast build rule for target.
+nodo_servidor/fast:
+	$(MAKE) -f CMakeFiles/nodo_servidor.dir/build.make CMakeFiles/nodo_servidor.dir/build
+.PHONY : nodo_servidor/fast
+
+#=============================================================================
+# Target rules for targets named practicas_generate_messages_cpp
+
+# Build rule for target.
+practicas_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages_cpp
+.PHONY : practicas_generate_messages_cpp
+
+# fast build rule for target.
+practicas_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/practicas_generate_messages_cpp.dir/build.make CMakeFiles/practicas_generate_messages_cpp.dir/build
+.PHONY : practicas_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named practicas_gennodejs
+
+# Build rule for target.
+practicas_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_gennodejs
+.PHONY : practicas_gennodejs
+
+# fast build rule for target.
+practicas_gennodejs/fast:
+	$(MAKE) -f CMakeFiles/practicas_gennodejs.dir/build.make CMakeFiles/practicas_gennodejs.dir/build
+.PHONY : practicas_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named _practicas_generate_messages_check_deps_tipo_servicio
+
+# Build rule for target.
+_practicas_generate_messages_check_deps_tipo_servicio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _practicas_generate_messages_check_deps_tipo_servicio
+.PHONY : _practicas_generate_messages_check_deps_tipo_servicio
+
+# fast build rule for target.
+_practicas_generate_messages_check_deps_tipo_servicio/fast:
+	$(MAKE) -f CMakeFiles/_practicas_generate_messages_check_deps_tipo_servicio.dir/build.make CMakeFiles/_practicas_generate_messages_check_deps_tipo_servicio.dir/build
+.PHONY : _practicas_generate_messages_check_deps_tipo_servicio/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_py
+
+# Build rule for target.
+roscpp_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named practicas_gencpp
+
+# Build rule for target.
+practicas_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_gencpp
+.PHONY : practicas_gencpp
+
+# fast build rule for target.
+practicas_gencpp/fast:
+	$(MAKE) -f CMakeFiles/practicas_gencpp.dir/build.make CMakeFiles/practicas_gencpp.dir/build
+.PHONY : practicas_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_eus
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_eus
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+.PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results
+
+# Build rule for target.
+clean_test_results: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results
+.PHONY : clean_test_results
+
+# fast build rule for target.
+clean_test_results/fast:
+	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
+.PHONY : clean_test_results/fast
+
+#=============================================================================
+# Target rules for targets named practicas_generate_messages_lisp
+
+# Build rule for target.
+practicas_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages_lisp
+.PHONY : practicas_generate_messages_lisp
+
+# fast build rule for target.
+practicas_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/practicas_generate_messages_lisp.dir/build.make CMakeFiles/practicas_generate_messages_lisp.dir/build
+.PHONY : practicas_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_nodejs
+
+# Build rule for target.
+std_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_cpp
+
+# Build rule for target.
+roscpp_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_eus
+
+# Build rule for target.
+roscpp_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
+.PHONY : roscpp_generate_messages_eus
+
+# fast build rule for target.
+roscpp_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/build
+.PHONY : roscpp_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named practicas_generate_messages
+
+# Build rule for target.
+practicas_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages
+.PHONY : practicas_generate_messages
+
+# fast build rule for target.
+practicas_generate_messages/fast:
+	$(MAKE) -f CMakeFiles/practicas_generate_messages.dir/build.make CMakeFiles/practicas_generate_messages.dir/build
+.PHONY : practicas_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named download_extra_data
+
+# Build rule for target.
+download_extra_data: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 download_extra_data
+.PHONY : download_extra_data
+
+# fast build rule for target.
+download_extra_data/fast:
+	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
+.PHONY : download_extra_data/fast
+
+#=============================================================================
+# Target rules for targets named practicas_generate_messages_eus
+
+# Build rule for target.
+practicas_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages_eus
+.PHONY : practicas_generate_messages_eus
+
+# fast build rule for target.
+practicas_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/practicas_generate_messages_eus.dir/build.make CMakeFiles/practicas_generate_messages_eus.dir/build
+.PHONY : practicas_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_lisp
+
+# Build rule for target.
+std_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named doxygen
+
+# Build rule for target.
+doxygen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 doxygen
+.PHONY : doxygen
+
+# fast build rule for target.
+doxygen/fast:
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
+.PHONY : doxygen/fast
+
+#=============================================================================
+# Target rules for targets named run_tests
+
+# Build rule for target.
+run_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests
+.PHONY : run_tests
+
+# fast build rule for target.
+run_tests/fast:
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
+.PHONY : run_tests/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_cpp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_nodejs
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_nodejs
+.PHONY : rosgraph_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_nodejs
+
+# Build rule for target.
+roscpp_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_nodejs
+.PHONY : roscpp_generate_messages_nodejs
+
+# fast build rule for target.
+roscpp_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+.PHONY : roscpp_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named tests
+
+# Build rule for target.
+tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tests
+.PHONY : tests
+
+# fast build rule for target.
+tests/fast:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+.PHONY : tests/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_py
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_py
+
+# Build rule for target.
+std_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named practicas_generate_messages_py
+
+# Build rule for target.
+practicas_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practicas_generate_messages_py
+.PHONY : practicas_generate_messages_py
+
+# fast build rule for target.
+practicas_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/practicas_generate_messages_py.dir/build.make CMakeFiles/practicas_generate_messages_py.dir/build
+.PHONY : practicas_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_lisp
+
+# Build rule for target.
+roscpp_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
+.PHONY : roscpp_generate_messages_lisp
+
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_eus
+
+# Build rule for target.
+std_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
+.PHONY : std_msgs_generate_messages_eus
+
+# fast build rule for target.
+std_msgs_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
+.PHONY : std_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named _practicas_generate_messages_check_deps_mensajeTest
+
+# Build rule for target.
+_practicas_generate_messages_check_deps_mensajeTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _practicas_generate_messages_check_deps_mensajeTest
+.PHONY : _practicas_generate_messages_check_deps_mensajeTest
+
+# fast build rule for target.
+_practicas_generate_messages_check_deps_mensajeTest/fast:
+	$(MAKE) -f CMakeFiles/_practicas_generate_messages_check_deps_mensajeTest.dir/build.make CMakeFiles/_practicas_generate_messages_check_deps_mensajeTest.dir/build
+.PHONY : _practicas_generate_messages_check_deps_mensajeTest/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
 src/nodo_cliente.o: src/nodo_cliente.cpp.o
 
@@ -651,7 +704,7 @@ src/nodo_cliente.o: src/nodo_cliente.cpp.o
 
 # target to build an object file
 src/nodo_cliente.cpp.o:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_cliente.dir/build.make practicas/CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.o
+	$(MAKE) -f CMakeFiles/nodo_cliente.dir/build.make CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.o
 .PHONY : src/nodo_cliente.cpp.o
 
 src/nodo_cliente.i: src/nodo_cliente.cpp.i
@@ -660,7 +713,7 @@ src/nodo_cliente.i: src/nodo_cliente.cpp.i
 
 # target to preprocess a source file
 src/nodo_cliente.cpp.i:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_cliente.dir/build.make practicas/CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.i
+	$(MAKE) -f CMakeFiles/nodo_cliente.dir/build.make CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.i
 .PHONY : src/nodo_cliente.cpp.i
 
 src/nodo_cliente.s: src/nodo_cliente.cpp.s
@@ -669,7 +722,7 @@ src/nodo_cliente.s: src/nodo_cliente.cpp.s
 
 # target to generate assembly for a file
 src/nodo_cliente.cpp.s:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_cliente.dir/build.make practicas/CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.s
+	$(MAKE) -f CMakeFiles/nodo_cliente.dir/build.make CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.s
 .PHONY : src/nodo_cliente.cpp.s
 
 src/nodo_emisor.o: src/nodo_emisor.cpp.o
@@ -678,7 +731,7 @@ src/nodo_emisor.o: src/nodo_emisor.cpp.o
 
 # target to build an object file
 src/nodo_emisor.cpp.o:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_emisor.dir/build.make practicas/CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.o
+	$(MAKE) -f CMakeFiles/nodo_emisor.dir/build.make CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.o
 .PHONY : src/nodo_emisor.cpp.o
 
 src/nodo_emisor.i: src/nodo_emisor.cpp.i
@@ -687,7 +740,7 @@ src/nodo_emisor.i: src/nodo_emisor.cpp.i
 
 # target to preprocess a source file
 src/nodo_emisor.cpp.i:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_emisor.dir/build.make practicas/CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.i
+	$(MAKE) -f CMakeFiles/nodo_emisor.dir/build.make CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.i
 .PHONY : src/nodo_emisor.cpp.i
 
 src/nodo_emisor.s: src/nodo_emisor.cpp.s
@@ -696,7 +749,7 @@ src/nodo_emisor.s: src/nodo_emisor.cpp.s
 
 # target to generate assembly for a file
 src/nodo_emisor.cpp.s:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_emisor.dir/build.make practicas/CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.s
+	$(MAKE) -f CMakeFiles/nodo_emisor.dir/build.make CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.s
 .PHONY : src/nodo_emisor.cpp.s
 
 src/nodo_receptor.o: src/nodo_receptor.cpp.o
@@ -705,7 +758,7 @@ src/nodo_receptor.o: src/nodo_receptor.cpp.o
 
 # target to build an object file
 src/nodo_receptor.cpp.o:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_receptor.dir/build.make practicas/CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.o
+	$(MAKE) -f CMakeFiles/nodo_receptor.dir/build.make CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.o
 .PHONY : src/nodo_receptor.cpp.o
 
 src/nodo_receptor.i: src/nodo_receptor.cpp.i
@@ -714,7 +767,7 @@ src/nodo_receptor.i: src/nodo_receptor.cpp.i
 
 # target to preprocess a source file
 src/nodo_receptor.cpp.i:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_receptor.dir/build.make practicas/CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.i
+	$(MAKE) -f CMakeFiles/nodo_receptor.dir/build.make CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.i
 .PHONY : src/nodo_receptor.cpp.i
 
 src/nodo_receptor.s: src/nodo_receptor.cpp.s
@@ -723,7 +776,7 @@ src/nodo_receptor.s: src/nodo_receptor.cpp.s
 
 # target to generate assembly for a file
 src/nodo_receptor.cpp.s:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_receptor.dir/build.make practicas/CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.s
+	$(MAKE) -f CMakeFiles/nodo_receptor.dir/build.make CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.s
 .PHONY : src/nodo_receptor.cpp.s
 
 src/nodo_servidor.o: src/nodo_servidor.cpp.o
@@ -732,7 +785,7 @@ src/nodo_servidor.o: src/nodo_servidor.cpp.o
 
 # target to build an object file
 src/nodo_servidor.cpp.o:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_servidor.dir/build.make practicas/CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o
+	$(MAKE) -f CMakeFiles/nodo_servidor.dir/build.make CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o
 .PHONY : src/nodo_servidor.cpp.o
 
 src/nodo_servidor.i: src/nodo_servidor.cpp.i
@@ -741,7 +794,7 @@ src/nodo_servidor.i: src/nodo_servidor.cpp.i
 
 # target to preprocess a source file
 src/nodo_servidor.cpp.i:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_servidor.dir/build.make practicas/CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.i
+	$(MAKE) -f CMakeFiles/nodo_servidor.dir/build.make CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.i
 .PHONY : src/nodo_servidor.cpp.i
 
 src/nodo_servidor.s: src/nodo_servidor.cpp.s
@@ -750,7 +803,7 @@ src/nodo_servidor.s: src/nodo_servidor.cpp.s
 
 # target to generate assembly for a file
 src/nodo_servidor.cpp.s:
-	cd /home/kevin/catkin_ws/build && $(MAKE) -f practicas/CMakeFiles/nodo_servidor.dir/build.make practicas/CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.s
+	$(MAKE) -f CMakeFiles/nodo_servidor.dir/build.make CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.s
 .PHONY : src/nodo_servidor.cpp.s
 
 # Help Target
@@ -769,35 +822,44 @@ help:
 	@echo "... practicas_genpy"
 	@echo "... practicas_generate_messages_nodejs"
 	@echo "... practicas_genlisp"
-	@echo "... std_msgs_generate_messages_py"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... install/strip"
-	@echo "... nodo_servidor"
-	@echo "... practicas_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... practicas_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... practicas_generate_messages_py"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_eus"
-	@echo "... practicas_generate_messages"
-	@echo "... _practicas_generate_messages_check_deps_mensajeTest"
-	@echo "... practicas_gennodejs"
-	@echo "... _practicas_generate_messages_check_deps_tipo_servicio"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... practicas_gencpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... practicas_generate_messages_eus"
 	@echo "... nodo_receptor"
 	@echo "... nodo_emisor"
 	@echo "... practicas_geneus"
+	@echo "... install/strip"
+	@echo "... nodo_servidor"
+	@echo "... practicas_generate_messages_cpp"
+	@echo "... practicas_gennodejs"
+	@echo "... _practicas_generate_messages_check_deps_tipo_servicio"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... practicas_gencpp"
+	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... clean_test_results"
+	@echo "... practicas_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_eus"
+	@echo "... practicas_generate_messages"
+	@echo "... download_extra_data"
+	@echo "... practicas_generate_messages_eus"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... doxygen"
+	@echo "... run_tests"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... tests"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_py"
+	@echo "... practicas_generate_messages_py"
+	@echo "... roscpp_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_eus"
+	@echo "... _practicas_generate_messages_check_deps_mensajeTest"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... src/nodo_cliente.o"
 	@echo "... src/nodo_cliente.i"
 	@echo "... src/nodo_cliente.s"
@@ -821,6 +883,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kevin/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

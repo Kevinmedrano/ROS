@@ -1,8 +1,1 @@
-(cl:in-package practicas-srv)
-(cl:export '(ARGUMENTO1-VAL
-          ARGUMENTO1
-          ARGUMENTO2-VAL
-          ARGUMENTO2
-          RESULTADO1-VAL
-          RESULTADO1
-))
+/home/kevin/catkin_ws/devel/.private/practicas/share/common-lisp/ros/practicas/srv/_package_tipo_servicio.lisp

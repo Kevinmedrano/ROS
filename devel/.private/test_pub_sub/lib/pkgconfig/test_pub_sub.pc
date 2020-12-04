@@ -1,0 +1,8 @@
+prefix=/home/kevin/catkin_ws/devel/.private/test_pub_sub
+
+Name: test_pub_sub
+Description: Description of test_pub_sub
+Version: 0.0.0
+Cflags: -I/home/kevin/catkin_ws/devel/.private/test_pub_sub/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy message_runtime

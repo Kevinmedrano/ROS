@@ -150,7 +150,12 @@ add_executable(nodo_cliente src/nodo_cliente.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+add_dependencies(nodo_emisor beginner_tutorials_generate_messages_cpp ${catkin_EXPORTED_TARGETS})
+add_dependencies(nodo_receptor beginner_tutorials_generate_messages_cpp ${catkin_EXPORTED_TARGETS})
+
+add_dependencies(nodo_servidor beginner_tutorials_generate_messages_cpp ${catkin_EXPORTED_TARGETS})
+add_dependencies(nodo_cliente beginner_tutorials_generate_messages_cpp ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(nodo_emisor

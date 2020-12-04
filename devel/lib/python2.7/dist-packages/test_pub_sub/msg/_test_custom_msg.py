@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/test_pub_sub/lib/python2.7/dist-packages/test_pub_sub/msg/_test_custom_msg.py

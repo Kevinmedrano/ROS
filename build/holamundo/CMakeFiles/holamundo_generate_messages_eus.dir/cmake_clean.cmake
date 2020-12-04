@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/holamundo_generate_messages_eus"
-  "/home/kevin/catkin_ws/devel/share/roseus/ros/holamundo/msg/IoTSensor.l"
-  "/home/kevin/catkin_ws/devel/share/roseus/ros/holamundo/manifest.l"
+  "/home/kevin/catkin_ws/devel/.private/holamundo/share/roseus/ros/holamundo/msg/IoTSensor.l"
+  "/home/kevin/catkin_ws/devel/.private/holamundo/share/roseus/ros/holamundo/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

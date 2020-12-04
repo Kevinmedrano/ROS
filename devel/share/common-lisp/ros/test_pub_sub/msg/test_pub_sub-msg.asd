@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/test_pub_sub/share/common-lisp/ros/test_pub_sub/msg/test_pub_sub-msg.asd

@@ -1,9 +1,1 @@
-
-(cl:in-package :asdf)
-
-(defsystem "holamundo-msg"
-  :depends-on (:roslisp-msg-protocol :roslisp-utils )
-  :components ((:file "_package")
-    (:file "IoTSensor" :depends-on ("_package_IoTSensor"))
-    (:file "_package_IoTSensor" :depends-on ("_package"))
-  ))
+/home/kevin/catkin_ws/devel/.private/holamundo/share/common-lisp/ros/holamundo/msg/holamundo-msg.asd

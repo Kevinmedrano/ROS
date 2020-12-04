@@ -1,8 +1,1 @@
-prefix=/home/kevin/catkin_ws/devel
-
-Name: opencv
-Description: Description of opencv
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/kevin/catkin_ws/devel/.private/opencv/lib/pkgconfig/opencv.pc

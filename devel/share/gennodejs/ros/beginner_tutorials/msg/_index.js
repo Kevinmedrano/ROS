@@ -1,8 +1,1 @@
-
-"use strict";
-
-let mensaje = require('./mensaje.js');
-
-module.exports = {
-  mensaje: mensaje,
-};
+/home/kevin/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/_index.js

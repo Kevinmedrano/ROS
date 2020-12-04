@@ -1,0 +1,5 @@
+[01m[K/home/kevin/catkin_ws/src/practicas/src/nodo_cliente.cpp:2:37:[m[K [01;31m[Kfatal error: [m[Kpracticas/tipo_servicio.h: No existe el archivo o el directorio
+compilation terminated.
+make[2]: *** [CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.o] Error 1
+make[1]: *** [CMakeFiles/nodo_cliente.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,8 +1,1 @@
-
-"use strict";
-
-let mensajeTest = require('./mensajeTest.js');
-
-module.exports = {
-  mensajeTest: mensajeTest,
-};
+/home/kevin/catkin_ws/devel/.private/practicas/share/gennodejs/ros/practicas/msg/_index.js

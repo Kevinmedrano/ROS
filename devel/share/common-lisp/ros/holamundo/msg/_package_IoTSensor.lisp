@@ -1,10 +1,1 @@
-(cl:in-package holamundo-msg)
-(cl:export '(ID-VAL
-          ID
-          REGION-VAL
-          REGION
-          TEMPERATURA-VAL
-          TEMPERATURA
-          HUMEDAD-VAL
-          HUMEDAD
-))
+/home/kevin/catkin_ws/devel/.private/holamundo/share/common-lisp/ros/holamundo/msg/_package_IoTSensor.lisp

@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/trabajo/share/trabajo/cmake/trabajoConfig.cmake

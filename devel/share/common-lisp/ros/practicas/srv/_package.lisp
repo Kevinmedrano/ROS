@@ -1,10 +1,1 @@
-(cl:defpackage practicas-srv
-  (:use )
-  (:export
-   "TIPO_SERVICIO"
-   "<TIPO_SERVICIO-REQUEST>"
-   "TIPO_SERVICIO-REQUEST"
-   "<TIPO_SERVICIO-RESPONSE>"
-   "TIPO_SERVICIO-RESPONSE"
-  ))
-
+/home/kevin/catkin_ws/devel/.private/practicas/share/common-lisp/ros/practicas/srv/_package.lisp

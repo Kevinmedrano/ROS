@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/holamundo_generate_messages_cpp"
-  "/home/kevin/catkin_ws/devel/include/holamundo/IoTSensor.h"
+  "/home/kevin/catkin_ws/devel/.private/holamundo/include/holamundo/IoTSensor.h"
 )
 
 # Per-language clean rules from dependency scanning.

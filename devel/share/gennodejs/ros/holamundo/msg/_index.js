@@ -1,8 +1,1 @@
-
-"use strict";
-
-let IoTSensor = require('./IoTSensor.js');
-
-module.exports = {
-  IoTSensor: IoTSensor,
-};
+/home/kevin/catkin_ws/devel/.private/holamundo/share/gennodejs/ros/holamundo/msg/_index.js

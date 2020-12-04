@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.o"
-  "/home/kevin/catkin_ws/devel/lib/practicas/nodo_emisor.pdb"
-  "/home/kevin/catkin_ws/devel/lib/practicas/nodo_emisor"
+  "/home/kevin/catkin_ws/devel/.private/practicas/lib/practicas/nodo_emisor.pdb"
+  "/home/kevin/catkin_ws/devel/.private/practicas/lib/practicas/nodo_emisor"
 )
 
 # Per-language clean rules from dependency scanning.
