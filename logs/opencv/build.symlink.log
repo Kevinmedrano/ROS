@@ -1,3 +1,3 @@
-Linked: (/home/kevin/catkin_ws/devel/.private/opencv/share/opencv/cmake/opencvConfig.cmake, /home/kevin/catkin_ws/devel/share/opencv/cmake/opencvConfig.cmake)
-Linked: (/home/kevin/catkin_ws/devel/.private/opencv/share/opencv/cmake/opencvConfig-version.cmake, /home/kevin/catkin_ws/devel/share/opencv/cmake/opencvConfig-version.cmake)
-Linked: (/home/kevin/catkin_ws/devel/.private/opencv/lib/pkgconfig/opencv.pc, /home/kevin/catkin_ws/devel/lib/pkgconfig/opencv.pc)
+Symlinking /home/kevin/catkin_ws/devel/share/opencv/cmake/opencvConfig.cmake
+Symlinking /home/kevin/catkin_ws/devel/share/opencv/cmake/opencvConfig-version.cmake
+Symlinking /home/kevin/catkin_ws/devel/lib/pkgconfig/opencv.pc

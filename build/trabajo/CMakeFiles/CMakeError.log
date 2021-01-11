@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_818a8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_818a8.dir/build.make CMakeFiles/cmTC_818a8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5666d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5666d.dir/build.make CMakeFiles/cmTC_5666d.dir/build
 make[1]: se entra en el directorio '/home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_818a8.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_818a8.dir/CheckSymbolExists.c.o   -c /home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_818a8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_818a8.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_818a8.dir/CheckSymbolExists.c.o  -o cmTC_818a8 -rdynamic 
-CMakeFiles/cmTC_818a8.dir/CheckSymbolExists.c.o: En la función `main':
+Building C object CMakeFiles/cmTC_5666d.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5666d.dir/CheckSymbolExists.c.o   -c /home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5666d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5666d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5666d.dir/CheckSymbolExists.c.o  -o cmTC_5666d -rdynamic 
+CMakeFiles/cmTC_5666d.dir/CheckSymbolExists.c.o: En la función `main':
 CheckSymbolExists.c:(.text+0x16): referencia a `pthread_create' sin definir
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_818a8.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_818a8'
-make[1]: *** [cmTC_818a8] Error 1
+CMakeFiles/cmTC_5666d.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_5666d'
+make[1]: *** [cmTC_5666d] Error 1
 make[1]: se sale del directorio '/home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_818a8/fast'
-make: *** [cmTC_818a8/fast] Error 2
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_5666d/fast'
+make: *** [cmTC_5666d/fast] Error 2
 
 File /home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_173ab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_173ab.dir/build.make CMakeFiles/cmTC_173ab.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_54921/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54921.dir/build.make CMakeFiles/cmTC_54921.dir/build
 make[1]: se entra en el directorio '/home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_173ab.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_173ab.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_173ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_173ab.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_173ab.dir/CheckFunctionExists.c.o  -o cmTC_173ab -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_54921.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_54921.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54921
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54921.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_54921.dir/CheckFunctionExists.c.o  -o cmTC_54921 -rdynamic -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_173ab.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_173ab'
-make[1]: *** [cmTC_173ab] Error 1
+CMakeFiles/cmTC_54921.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_54921'
+make[1]: *** [cmTC_54921] Error 1
 make[1]: se sale del directorio '/home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_173ab/fast'
-make: *** [cmTC_173ab/fast] Error 2
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_54921/fast'
+make: *** [cmTC_54921/fast] Error 2
 
 

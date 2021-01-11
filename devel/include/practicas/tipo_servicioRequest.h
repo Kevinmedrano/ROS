@@ -1,1 +1,0 @@
-/home/kevin/catkin_ws/devel/.private/practicas/include/practicas/tipo_servicioRequest.h

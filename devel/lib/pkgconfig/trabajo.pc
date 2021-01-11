@@ -1,1 +1,0 @@
-/home/kevin/catkin_ws/devel/.private/trabajo/lib/pkgconfig/trabajo.pc

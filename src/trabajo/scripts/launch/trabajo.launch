@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="trabajo" name="dialogo_nodo" type="dialogo_nodo.py" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="trabajo" name="emocion_usuario_nodo" type="emocion_usuario_nodo.py" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="trabajo" name="empaquetador_nodo" type="empaquetador_nodo.py" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="trabajo" name="informacion_personal_nodo" type="informacion_personal_nodo.py" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="trabajo" name="posicion_usuario_nodo" type="posicion_usuario_nodo.py" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="trabajo" name="matematico_nodo" type="matematico_nodo.py" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="trabajo" name="reloj_nodo" type="reloj_nodo.py" output="screen" launch-prefix="xterm -e"/>
+</launch>

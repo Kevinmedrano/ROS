@@ -1,8 +1,0 @@
-prefix=/home/kevin/catkin_ws/install
-
-Name: practicas
-Description: Description of practicas
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 

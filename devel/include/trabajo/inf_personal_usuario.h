@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/trabajo/include/trabajo/inf_personal_usuario.h

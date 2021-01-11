@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/trabajo/lib/python2.7/dist-packages/trabajo/__init__.py

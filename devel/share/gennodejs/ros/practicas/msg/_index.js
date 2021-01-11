@@ -1,1 +1,0 @@
-/home/kevin/catkin_ws/devel/.private/practicas/share/gennodejs/ros/practicas/msg/_index.js

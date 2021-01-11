@@ -1,3 +1,3 @@
 string nombre
-int edad
+int16 edad
 string[] idiomas

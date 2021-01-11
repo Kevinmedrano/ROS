@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/trabajo/share/roseus/ros/trabajo/manifest.l

@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/trabajo/share/common-lisp/ros/trabajo/msg/inf_personal_usuario.lisp

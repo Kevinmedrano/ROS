@@ -38,6 +38,13 @@ Not searching for unused variables given on the command line.
 [36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
 [36m--[0m catkin 0.7.29
 [36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m trabajo: 3 messages, 0 services
 [36m--[0m Configuring done
+[31m[1mCMake Error[0m at /home/kevin/catkin_ws/src/trabajo/CMakeLists.txt:71 (add_dependencies):
+  The dependency target "trabajo_generate_message_cpp" of target
+  "nodo_emocion" does not exist.
+
+
 [36m--[0m Generating done
 [36m--[0m Build files have been written to: /home/kevin/catkin_ws/build/trabajo

@@ -124,18 +124,71 @@ file(INSTALL DESTINATION "/home/kevin/catkin_ws/install" TYPE FILE FILES "/home/
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/trabajo.pc")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trabajo/cmake" TYPE FILE FILES
-    "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/trabajoConfig.cmake"
-    "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/trabajoConfig-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trabajo/msg" TYPE FILE FILES
+    "/home/kevin/catkin_ws/src/trabajo/msg/inf_personal_usuario.msg"
+    "/home/kevin/catkin_ws/src/trabajo/msg/pos_usuario.msg"
+    "/home/kevin/catkin_ws/src/trabajo/msg/usuario.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trabajo" TYPE FILE FILES "/home/kevin/catkin_ws/src/trabajo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trabajo/srv" TYPE FILE FILES "/home/kevin/catkin_ws/src/trabajo/srv/multiplicador.srv")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trabajo/cmake" TYPE FILE FILES "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/trabajo-msg-paths.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/kevin/catkin_ws/devel/.private/trabajo/include/trabajo")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/kevin/catkin_ws/devel/.private/trabajo/share/roseus/ros/trabajo")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/kevin/catkin_ws/devel/.private/trabajo/share/common-lisp/ros/trabajo")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/kevin/catkin_ws/devel/.private/trabajo/share/gennodejs/ros/trabajo")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/kevin/catkin_ws/devel/.private/trabajo/lib/python2.7/dist-packages/trabajo")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/kevin/catkin_ws/devel/.private/trabajo/lib/python2.7/dist-packages/trabajo")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/trabajo" TYPE PROGRAM FILES "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/emocion_usuario_nodo.py")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/trabajo" TYPE PROGRAM FILES "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/informacion_personal_nodo.py")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/trabajo" TYPE PROGRAM FILES "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/reloj_nodo.py")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/trabajo" TYPE PROGRAM FILES "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/posicion_usuario_nodo.py")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/trabajo" TYPE PROGRAM FILES "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/empaquetador_nodo.py")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/trabajo" TYPE PROGRAM FILES "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/dialogo_nodo.py")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/trabajo" TYPE PROGRAM FILES "/home/kevin/catkin_ws/build/trabajo/catkin_generated/installspace/matematico_nodo.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -1,13 +1,55 @@
-[ 22%] Built target nodo_sub_iot2
-[ 22%] Built target _holamundo_generate_messages_check_deps_IoTSensor
-[ 22%] Built target std_msgs_generate_messages_py
-[ 22%] Built target std_msgs_generate_messages_nodejs
-[ 22%] Built target std_msgs_generate_messages_lisp
-[ 22%] Built target std_msgs_generate_messages_cpp
-[ 22%] Built target std_msgs_generate_messages_eus
-[ 44%] Built target holamundo_generate_messages_py
-[ 55%] Built target holamundo_generate_messages_nodejs
-[ 66%] Built target holamundo_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _holamundo_generate_messages_check_deps_IoTSensor[0m
+[  0%] Built target _holamundo_generate_messages_check_deps_IoTSensor
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target holamundo_generate_messages_py[0m
+[ 11%] [34m[1mGenerating Python from MSG holamundo/IoTSensor[0m
+[ 22%] [34m[1mGenerating Python msg __init__.py for holamundo[0m
+[ 22%] Built target holamundo_generate_messages_py
+[35m[1mScanning dependencies of target holamundo_generate_messages_nodejs[0m
+[ 33%] [34m[1mGenerating Javascript code from holamundo/IoTSensor.msg[0m
+[ 33%] Built target holamundo_generate_messages_nodejs
+[35m[1mScanning dependencies of target holamundo_generate_messages_lisp[0m
+[ 44%] [34m[1mGenerating Lisp code from holamundo/IoTSensor.msg[0m
+[ 44%] Built target holamundo_generate_messages_lisp
+[35m[1mScanning dependencies of target holamundo_generate_messages_eus[0m
+[ 55%] [34m[1mGenerating EusLisp code from holamundo/IoTSensor.msg[0m
+[ 66%] [34m[1mGenerating EusLisp manifest code for holamundo[0m
+[ 66%] Built target holamundo_generate_messages_eus
+[35m[1mScanning dependencies of target holamundo_generate_messages_cpp[0m
+[ 77%] [34m[1mGenerating C++ code from holamundo/IoTSensor.msg[0m
 [ 77%] Built target holamundo_generate_messages_cpp
-[100%] Built target holamundo_generate_messages_eus
-[100%] Built target holamundo_generate_messages
+[35m[1mScanning dependencies of target nodo_sub_iot2[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/nodo_sub_iot2.dir/src/iot_sub2.cpp.o[0m
+[35m[1mScanning dependencies of target holamundo_generate_messages[0m
+[ 88%] Built target holamundo_generate_messages
+[100%] [32m[1mLinking CXX executable /home/kevin/catkin_ws/devel/.private/holamundo/lib/holamundo/nodo_sub_iot2[0m
+[100%] Built target nodo_sub_iot2

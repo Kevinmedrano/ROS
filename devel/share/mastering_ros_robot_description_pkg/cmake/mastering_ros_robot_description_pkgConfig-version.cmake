@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/mastering_ros_robot_description_pkg/share/mastering_ros_robot_description_pkg/cmake/mastering_ros_robot_description_pkgConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/kevin/catkin_ws/devel/.private/practicas/share/common-lisp/ros/practicas/srv/_package.lisp

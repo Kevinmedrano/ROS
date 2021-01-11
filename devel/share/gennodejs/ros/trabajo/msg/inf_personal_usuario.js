@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/trabajo/share/gennodejs/ros/trabajo/msg/inf_personal_usuario.js

@@ -8,8 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/kevin/catkin_ws/devel/.private/beginner_tutorials:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/kevin/catkin_ws/devel/.private/beginner_tutorials/lib:$LD_LIBRARY_PATH"
 export PWD='/home/kevin/catkin_ws/build/beginner_tutorials'
-export PYTHONPATH="/home/kevin/catkin_ws/devel/.private/beginner_tutorials/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/kevin/catkin_ws/devel/.private/beginner_tutorials/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/kevin/catkin_ws/src/beginner_tutorials:$ROS_PACKAGE_PATH"

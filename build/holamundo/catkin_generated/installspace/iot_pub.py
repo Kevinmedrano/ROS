@@ -16,10 +16,14 @@ i = 0
 while not rospy.is_shutdown():
     
     iot_sensor = IoTSensor()
+    #print("ingrese 2 valores")
+    
     iot_sensor.id = i
     iot_sensor.region= "IoT_Bolivia"
-    iot_sensor.temperatura = 21.33 + (random.random()*2)
-    iot_sensor.humedad = 33.41+ (random.random()*2)
+    temp = int(input("ingrese valor de temperatura: "))
+    iot_sensor.temperatura = temp#21.33 + (random.random()*2)
+    hume = int(input("ingrese valor de humedad: "))
+    iot_sensor.humedad = hume#33.41+ (random.random()*2)
     
     rospy.loginfo("Tx from Python:")
     rospy.loginfo(iot_sensor)

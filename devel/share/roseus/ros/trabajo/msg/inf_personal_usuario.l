@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/trabajo/share/roseus/ros/trabajo/msg/inf_personal_usuario.l

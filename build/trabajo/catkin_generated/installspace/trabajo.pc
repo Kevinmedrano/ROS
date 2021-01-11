@@ -1,8 +1,0 @@
-prefix=/home/kevin/catkin_ws/install
-
-Name: trabajo
-Description: Description of trabajo
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

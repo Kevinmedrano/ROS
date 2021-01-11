@@ -1,10 +1,75 @@
+[35m[1mScanning dependencies of target _beginner_tutorials_generate_messages_check_deps_tipo_servicio[0m
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_tipo_servicio
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _beginner_tutorials_generate_messages_check_deps_mensaje[0m
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_mensaje
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target beginner_tutorials_generate_messages_nodejs[0m
+[  4%] [34m[1mGenerating Javascript code from beginner_tutorials/mensaje.msg[0m
+[  9%] [34m[1mGenerating Javascript code from beginner_tutorials/tipo_servicio.srv[0m
+[  9%] Built target beginner_tutorials_generate_messages_nodejs
+[35m[1mScanning dependencies of target beginner_tutorials_generate_messages_lisp[0m
+[ 14%] [34m[1mGenerating Lisp code from beginner_tutorials/mensaje.msg[0m
+[ 19%] [34m[1mGenerating Lisp code from beginner_tutorials/tipo_servicio.srv[0m
+[ 19%] Built target beginner_tutorials_generate_messages_lisp
+[35m[1mScanning dependencies of target beginner_tutorials_generate_messages_py[0m
+[ 23%] [34m[1mGenerating Python from MSG beginner_tutorials/mensaje[0m
+[ 28%] [34m[1mGenerating Python code from SRV beginner_tutorials/tipo_servicio[0m
+[ 33%] [34m[1mGenerating Python msg __init__.py for beginner_tutorials[0m
+[ 38%] [34m[1mGenerating Python srv __init__.py for beginner_tutorials[0m
+[ 38%] Built target beginner_tutorials_generate_messages_py
+[35m[1mScanning dependencies of target beginner_tutorials_generate_messages_cpp[0m
+[ 42%] [34m[1mGenerating C++ code from beginner_tutorials/mensaje.msg[0m
+[ 47%] [34m[1mGenerating C++ code from beginner_tutorials/tipo_servicio.srv[0m
+[ 47%] Built target beginner_tutorials_generate_messages_cpp
 [35m[1mScanning dependencies of target nodo_servidor[0m
-[  4%] [32mBuilding CXX object CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o[0m
-[01m[K/home/kevin/catkin_ws/src/beginner_tutorials/src/nodo_servidor.cpp:2:46:[m[K [01;31m[Kfatal error: [m[Kbeginner_tutorials/tipo_servicio.h: No existe el archivo o el directorio
-compilation terminated.
-CMakeFiles/nodo_servidor.dir/build.make:62: fallo en las instrucciones para el objetivo 'CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o'
-make[2]: *** [CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o] Error 1
-CMakeFiles/Makefile2:67: fallo en las instrucciones para el objetivo 'CMakeFiles/nodo_servidor.dir/all'
-make[1]: *** [CMakeFiles/nodo_servidor.dir/all] Error 2
-Makefile:138: fallo en las instrucciones para el objetivo 'all'
-make: *** [all] Error 2
+[35m[1mScanning dependencies of target beginner_tutorials_generate_messages_eus[0m
+[ 52%] [34m[1mGenerating EusLisp code from beginner_tutorials/mensaje.msg[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o[0m
+[ 61%] [34m[1mGenerating EusLisp code from beginner_tutorials/tipo_servicio.srv[0m
+[ 66%] [34m[1mGenerating EusLisp manifest code for beginner_tutorials[0m
+[ 66%] Built target beginner_tutorials_generate_messages_eus
+[35m[1mScanning dependencies of target nodo_receptor[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable /home/kevin/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/nodo_servidor[0m
+[ 76%] Built target nodo_servidor
+[35m[1mScanning dependencies of target nodo_emisor[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable /home/kevin/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/nodo_receptor[0m
+[ 85%] Built target nodo_receptor
+[35m[1mScanning dependencies of target nodo_cliente[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable /home/kevin/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/nodo_emisor[0m
+[ 95%] Built target nodo_emisor
+[35m[1mScanning dependencies of target beginner_tutorials_generate_messages[0m
+[ 95%] Built target beginner_tutorials_generate_messages
+[100%] [32m[1mLinking CXX executable /home/kevin/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/nodo_cliente[0m
+[100%] Built target nodo_cliente

@@ -1,1 +1,0 @@
-/home/kevin/catkin_ws/devel/.private/practicas/share/roseus/ros/practicas/srv/tipo_servicio.l

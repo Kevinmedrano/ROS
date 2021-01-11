@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/kevin/catkin_ws/src/trabajo/CMakeLists.txt:71 (add_dependencies):
+  The dependency target "trabajo_generate_message_cpp" of target
+  "nodo_emocion" does not exist.
+
+
