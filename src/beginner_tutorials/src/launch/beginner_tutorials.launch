@@ -1,4 +1,6 @@
 <launch>
   <node pkg="beginner_tutorials" name="nodo_emisor" type="nodo_emisor"/>
   <node pkg="beginner_tutorials" name="nodo_receptor" type="nodo_receptor"/>
+  <node pkg="beginner_tutorials" name="nodo_cliente" type="nodo_cliente"/>
+  <node pkg="beginner_tutorials" name="nodo_servidor" type="nodo_servidor"/>
 </launch>
