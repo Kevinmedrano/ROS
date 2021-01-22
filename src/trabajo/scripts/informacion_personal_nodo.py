@@ -6,7 +6,7 @@ from trabajo.msg import inf_personal_usuario
 from espeak import espeak
 
 # Varialbe para almacenar los idiomas de usuario
-idiomas_aux = []
+
 
 def Publicador():
     # Se inicia el nodo publicador donde envia mensajes 
@@ -16,6 +16,7 @@ def Publicador():
 
     while not rospy.is_shutdown():
         # Obtenermos la informacion de usuario
+        idiomas_aux = []
         datos_usuario = inf_personal_usuario()
         rospy.loginfo("Introducir informacion de usuario")
         n = raw_input("Ingrese su nombre: ")

@@ -29,7 +29,9 @@ def callbackUser(data):
     rospy.loginfo("Datos recibidos")
     # Se muestra en consola los datos recibidos
     rospy.loginfo(data)
+
     edad = data.infPersonal.edad
+
     text = "de "+data.infPersonal.nombre
     espeak.synth("Se recibieron los datos completos")
     espeak.synth(text)
@@ -61,15 +63,12 @@ while not rospy.is_shutdown():
         if AuxReloj:
             pubRelojReset.publish("Reset")
             espeak.synth("Se ha enviado la orden de reset del reloj")
+
         if not AuxReloj:
             pubRelojStart.publish("Start")
             espeak.synth("Se ha enviado la orden de start del reloj")
             AuxReloj = True
         resultServer = clientService(edad)
         rospy.loginfo("Resultado del Servidor: "+str(resultServer))
-        
         flagClient = False
         
-        
-        
-#rospy.spin()

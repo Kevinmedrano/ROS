@@ -4,6 +4,7 @@ import rospy
 #from trabajo.msg import usuario
 # Se importa modulos de dependencias de mensajes de tipo String y mensajes del directorio msg
 from std_msgs.msg import String
+
 from trabajo.msg import pos_usuario
 from trabajo.msg import inf_personal_usuario
 from trabajo.msg import usuario
@@ -57,5 +58,4 @@ while not rospy.is_shutdown():
         data_posicion = False
         data_personal = False
         data_emocion = False
-    #rospy.sleep(1)
     
