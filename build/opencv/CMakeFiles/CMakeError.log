@@ -1,55 +1,65 @@
-Determining if the pthread_create exist failed with the following output:
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/kevin/catkin_ws/build/opencv/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d1b66/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d1b66.dir/build.make CMakeFiles/cmTC_d1b66.dir/build
+Run Build Command(s):/usr/bin/make cmTC_1814b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1814b.dir/build.make CMakeFiles/cmTC_1814b.dir/build
 make[1]: se entra en el directorio '/home/kevin/catkin_ws/build/opencv/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d1b66.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_d1b66.dir/CheckSymbolExists.c.o   -c /home/kevin/catkin_ws/build/opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d1b66
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1b66.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_d1b66.dir/CheckSymbolExists.c.o  -o cmTC_d1b66 -rdynamic 
-CMakeFiles/cmTC_d1b66.dir/CheckSymbolExists.c.o: En la función `main':
-CheckSymbolExists.c:(.text+0x16): referencia a `pthread_create' sin definir
+Building C object CMakeFiles/cmTC_1814b.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1814b.dir/src.c.o -c /home/kevin/catkin_ws/build/opencv/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1814b
+/home/kevin/cmake-3.19.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1814b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_1814b.dir/src.c.o -o cmTC_1814b 
+CMakeFiles/cmTC_1814b.dir/src.c.o: En la función `main':
+src.c:(.text+0x3c): referencia a `pthread_create' sin definir
+src.c:(.text+0x48): referencia a `pthread_detach' sin definir
+src.c:(.text+0x54): referencia a `pthread_cancel' sin definir
+src.c:(.text+0x65): referencia a `pthread_join' sin definir
+src.c:(.text+0x79): referencia a `pthread_atfork' sin definir
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d1b66.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_d1b66'
-make[1]: *** [cmTC_d1b66] Error 1
+CMakeFiles/cmTC_1814b.dir/build.make:105: fallo en las instrucciones para el objetivo 'cmTC_1814b'
+make[1]: *** [cmTC_1814b] Error 1
 make[1]: se sale del directorio '/home/kevin/catkin_ws/build/opencv/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_d1b66/fast'
-make: *** [cmTC_d1b66/fast] Error 2
+Makefile:140: fallo en las instrucciones para el objetivo 'cmTC_1814b/fast'
+make: *** [cmTC_1814b/fast] Error 2
 
-File /home/kevin/catkin_ws/build/opencv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
+
+Source file was:
 #include <pthread.h>
 
-int main(int argc, char** argv)
+static void* test_func(void* data)
 {
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
   return 0;
-#endif
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kevin/catkin_ws/build/opencv/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b06ab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b06ab.dir/build.make CMakeFiles/cmTC_b06ab.dir/build
+Run Build Command(s):/usr/bin/make cmTC_54807/fast && /usr/bin/make  -f CMakeFiles/cmTC_54807.dir/build.make CMakeFiles/cmTC_54807.dir/build
 make[1]: se entra en el directorio '/home/kevin/catkin_ws/build/opencv/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b06ab.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b06ab.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b06ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b06ab.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b06ab.dir/CheckFunctionExists.c.o  -o cmTC_b06ab -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_54807.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_54807.dir/CheckFunctionExists.c.o -c /home/kevin/cmake-3.19.3-Linux-x86_64/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54807
+/home/kevin/cmake-3.19.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54807.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_54807.dir/CheckFunctionExists.c.o -o cmTC_54807  -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b06ab.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_b06ab'
-make[1]: *** [cmTC_b06ab] Error 1
+CMakeFiles/cmTC_54807.dir/build.make:105: fallo en las instrucciones para el objetivo 'cmTC_54807'
+make[1]: *** [cmTC_54807] Error 1
 make[1]: se sale del directorio '/home/kevin/catkin_ws/build/opencv/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_b06ab/fast'
-make: *** [cmTC_b06ab/fast] Error 2
+Makefile:140: fallo en las instrucciones para el objetivo 'cmTC_54807/fast'
+make: *** [cmTC_54807/fast] Error 2
+
 
 

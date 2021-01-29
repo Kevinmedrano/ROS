@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_pub_sub_generate_messages_eus"
-  "/home/kevin/catkin_ws/devel/.private/test_pub_sub/share/roseus/ros/test_pub_sub/msg/test_custom_msg.l"
   "/home/kevin/catkin_ws/devel/.private/test_pub_sub/share/roseus/ros/test_pub_sub/manifest.l"
+  "/home/kevin/catkin_ws/devel/.private/test_pub_sub/share/roseus/ros/test_pub_sub/msg/test_custom_msg.l"
+  "CMakeFiles/test_pub_sub_generate_messages_eus"
 )
 
 # Per-language clean rules from dependency scanning.

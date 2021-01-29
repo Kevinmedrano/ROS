@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/listener_node.dir/src/topic01_basics/talker_listener/listener.cpp.o"
-  "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/listener_node.pdb"
   "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/listener_node"
+  "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/listener_node.pdb"
+  "CMakeFiles/listener_node.dir/src/topic01_basics/talker_listener/listener.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

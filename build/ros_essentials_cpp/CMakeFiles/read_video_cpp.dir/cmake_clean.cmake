@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/read_video_cpp.dir/src/topic03_perception/cpp/read_video.cpp.o"
-  "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/read_video_cpp.pdb"
   "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/read_video_cpp"
+  "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/read_video_cpp.pdb"
+  "CMakeFiles/read_video_cpp.dir/src/topic03_perception/cpp/read_video.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

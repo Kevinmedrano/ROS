@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/add_two_ints_server.dir/src/topic01_basics/service/add_two_ints_server.cpp.o"
-  "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/add_two_ints_server.pdb"
   "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/add_two_ints_server"
+  "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/add_two_ints_server.pdb"
+  "CMakeFiles/add_two_ints_server.dir/src/topic01_basics/service/add_two_ints_server.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

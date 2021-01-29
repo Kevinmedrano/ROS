@@ -1,0 +1,4 @@
+Symlinking /home/kevin/catkin_ws/devel/share/repetidor/cmake/repetidor-msg-paths.cmake
+Linked: (/home/kevin/catkin_ws/devel/.private/repetidor/share/repetidor/cmake/repetidorConfig.cmake, /home/kevin/catkin_ws/devel/share/repetidor/cmake/repetidorConfig.cmake)
+Linked: (/home/kevin/catkin_ws/devel/.private/repetidor/share/repetidor/cmake/repetidorConfig-version.cmake, /home/kevin/catkin_ws/devel/share/repetidor/cmake/repetidorConfig-version.cmake)
+Linked: (/home/kevin/catkin_ws/devel/.private/repetidor/lib/pkgconfig/repetidor.pc, /home/kevin/catkin_ws/devel/lib/pkgconfig/repetidor.pc)

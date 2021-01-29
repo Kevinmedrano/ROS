@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/repetidor/lib/pkgconfig/repetidor.pc

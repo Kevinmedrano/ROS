@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/chats/share/chats/cmake/chatsConfig-version.cmake

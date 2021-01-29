@@ -1,0 +1,8 @@
+prefix=/home/kevin/catkin_ws/devel/.private/rviz_teleop_commander
+
+Name: rviz_teleop_commander
+Description: Description of rviz_teleop_commander
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lrviz_teleop_commander
+Requires: roscpp rviz

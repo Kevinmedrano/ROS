@@ -8,8 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/kevin/catkin_ws/devel/.private/trabajo:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/kevin/catkin_ws/devel/.private/trabajo/lib:$LD_LIBRARY_PATH"
 export PWD='/home/kevin/catkin_ws/build/trabajo'
-export PYTHONPATH="/home/kevin/catkin_ws/devel/.private/trabajo/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/kevin/catkin_ws/devel/.private/trabajo/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/kevin/catkin_ws/src/trabajo:$ROS_PACKAGE_PATH"

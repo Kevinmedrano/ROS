@@ -13,6 +13,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"ros_essentials_cpp\""
+  "utility_lib_EXPORTS"
   )
 
 # The include file search paths:

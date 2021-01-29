@@ -1,0 +1,65 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/kevin/catkin_ws/build/rosserial_server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a481b/fast && /usr/bin/make  -f CMakeFiles/cmTC_a481b.dir/build.make CMakeFiles/cmTC_a481b.dir/build
+make[1]: se entra en el directorio '/home/kevin/catkin_ws/build/rosserial_server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a481b.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a481b.dir/src.c.o -c /home/kevin/catkin_ws/build/rosserial_server/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a481b
+/home/kevin/cmake-3.19.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a481b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a481b.dir/src.c.o -o cmTC_a481b 
+CMakeFiles/cmTC_a481b.dir/src.c.o: En la función `main':
+src.c:(.text+0x3c): referencia a `pthread_create' sin definir
+src.c:(.text+0x48): referencia a `pthread_detach' sin definir
+src.c:(.text+0x54): referencia a `pthread_cancel' sin definir
+src.c:(.text+0x65): referencia a `pthread_join' sin definir
+src.c:(.text+0x79): referencia a `pthread_atfork' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a481b.dir/build.make:105: fallo en las instrucciones para el objetivo 'cmTC_a481b'
+make[1]: *** [cmTC_a481b] Error 1
+make[1]: se sale del directorio '/home/kevin/catkin_ws/build/rosserial_server/CMakeFiles/CMakeTmp'
+Makefile:140: fallo en las instrucciones para el objetivo 'cmTC_a481b/fast'
+make: *** [cmTC_a481b/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kevin/catkin_ws/build/rosserial_server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5105f/fast && /usr/bin/make  -f CMakeFiles/cmTC_5105f.dir/build.make CMakeFiles/cmTC_5105f.dir/build
+make[1]: se entra en el directorio '/home/kevin/catkin_ws/build/rosserial_server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5105f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5105f.dir/CheckFunctionExists.c.o -c /home/kevin/cmake-3.19.3-Linux-x86_64/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5105f
+/home/kevin/cmake-3.19.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5105f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_5105f.dir/CheckFunctionExists.c.o -o cmTC_5105f  -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5105f.dir/build.make:105: fallo en las instrucciones para el objetivo 'cmTC_5105f'
+make[1]: *** [cmTC_5105f] Error 1
+make[1]: se sale del directorio '/home/kevin/catkin_ws/build/rosserial_server/CMakeFiles/CMakeTmp'
+Makefile:140: fallo en las instrucciones para el objetivo 'cmTC_5105f/fast'
+make: *** [cmTC_5105f/fast] Error 2
+
+
+

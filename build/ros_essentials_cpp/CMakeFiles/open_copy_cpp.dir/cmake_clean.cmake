@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/open_copy_cpp.dir/src/topic03_perception/cpp/open_copy.cpp.o"
-  "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/open_copy_cpp.pdb"
   "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/open_copy_cpp"
+  "/home/kevin/catkin_ws/devel/.private/ros_essentials_cpp/lib/ros_essentials_cpp/open_copy_cpp.pdb"
+  "CMakeFiles/open_copy_cpp.dir/src/topic03_perception/cpp/open_copy.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

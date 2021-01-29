@@ -1,0 +1,50 @@
+Symlinking /home/kevin/catkin_ws/devel/share/gennodejs/ros/trabajo/_index.js
+Symlinking /home/kevin/catkin_ws/devel/share/gennodejs/ros/trabajo/msg/inf_personal_usuario.js
+Symlinking /home/kevin/catkin_ws/devel/share/gennodejs/ros/trabajo/msg/_index.js
+Symlinking /home/kevin/catkin_ws/devel/share/gennodejs/ros/trabajo/msg/usuario.js
+Symlinking /home/kevin/catkin_ws/devel/share/gennodejs/ros/trabajo/msg/pos_usuario.js
+Symlinking /home/kevin/catkin_ws/devel/share/gennodejs/ros/trabajo/srv/_index.js
+Symlinking /home/kevin/catkin_ws/devel/share/gennodejs/ros/trabajo/srv/multiplicador.js
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/pos_usuario.lisp
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/_package_usuario.lisp
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/_package.lisp
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/inf_personal_usuario.lisp
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/usuario.lisp
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/_package_pos_usuario.lisp
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/_package_inf_personal_usuario.lisp
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/trabajo-msg.asd
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/srv/_package_multiplicador.lisp
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/srv/_package.lisp
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/srv/multiplicador.lisp
+Symlinking /home/kevin/catkin_ws/devel/share/common-lisp/ros/trabajo/srv/trabajo-srv.asd
+Symlinking /home/kevin/catkin_ws/devel/share/trabajo/cmake/trabajo-msg-paths.cmake
+Symlinking /home/kevin/catkin_ws/devel/share/roseus/ros/trabajo/manifest.l
+Symlinking /home/kevin/catkin_ws/devel/share/roseus/ros/trabajo/msg/inf_personal_usuario.l
+Symlinking /home/kevin/catkin_ws/devel/share/roseus/ros/trabajo/msg/usuario.l
+Symlinking /home/kevin/catkin_ws/devel/share/roseus/ros/trabajo/msg/pos_usuario.l
+Symlinking /home/kevin/catkin_ws/devel/share/roseus/ros/trabajo/srv/multiplicador.l
+Symlinking /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/__init__.py
+Symlinking /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_usuario.py
+Symlinking /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/__init__.py
+Symlinking /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_pos_usuario.py
+Symlinking /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_inf_personal_usuario.py
+Symlinking /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/_multiplicador.py
+Symlinking /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/__init__.py
+Symlinking /home/kevin/catkin_ws/devel/include/trabajo/pos_usuario.h
+Symlinking /home/kevin/catkin_ws/devel/include/trabajo/multiplicador.h
+Symlinking /home/kevin/catkin_ws/devel/include/trabajo/inf_personal_usuario.h
+Symlinking /home/kevin/catkin_ws/devel/include/trabajo/multiplicadorResponse.h
+Symlinking /home/kevin/catkin_ws/devel/include/trabajo/usuario.h
+Symlinking /home/kevin/catkin_ws/devel/include/trabajo/multiplicadorRequest.h
+Cleaning: (/home/kevin/catkin_ws/devel/.private/trabajo/lib/trabajo/nodo_pos_usuario, /home/kevin/catkin_ws/devel/lib/trabajo/nodo_pos_usuario)
+Cleaning: (/home/kevin/catkin_ws/devel/.private/trabajo/lib/trabajo/nodo_informacion_personal, /home/kevin/catkin_ws/devel/lib/trabajo/nodo_informacion_personal)
+Cleaning: (/home/kevin/catkin_ws/devel/.private/trabajo/lib/trabajo/nodo_posicion_usuario, /home/kevin/catkin_ws/devel/lib/trabajo/nodo_posicion_usuario)
+Cleaning: (/home/kevin/catkin_ws/devel/.private/trabajo/lib/trabajo/nodo_emocion_usuario, /home/kevin/catkin_ws/devel/lib/trabajo/nodo_emocion_usuario)
+Unlinking: /home/kevin/catkin_ws/devel/lib/trabajo/nodo_pos_usuario
+Already unlinked: {}
+Unlinking: /home/kevin/catkin_ws/devel/lib/trabajo/nodo_informacion_personal
+Already unlinked: {}
+Unlinking: /home/kevin/catkin_ws/devel/lib/trabajo/nodo_posicion_usuario
+Already unlinked: {}
+Unlinking: /home/kevin/catkin_ws/devel/lib/trabajo/nodo_emocion_usuario
+Already unlinked: {}

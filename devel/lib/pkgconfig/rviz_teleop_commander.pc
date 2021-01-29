@@ -1,0 +1,1 @@
+/home/kevin/catkin_ws/devel/.private/rviz_teleop_commander/lib/pkgconfig/rviz_teleop_commander.pc

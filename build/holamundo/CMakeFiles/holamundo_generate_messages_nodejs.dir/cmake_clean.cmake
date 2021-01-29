@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/holamundo_generate_messages_nodejs"
   "/home/kevin/catkin_ws/devel/.private/holamundo/share/gennodejs/ros/holamundo/msg/IoTSensor.js"
+  "CMakeFiles/holamundo_generate_messages_nodejs"
 )
 
 # Per-language clean rules from dependency scanning.

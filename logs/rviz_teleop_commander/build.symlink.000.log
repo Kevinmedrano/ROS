@@ -1,0 +1,4 @@
+Symlinking /home/kevin/catkin_ws/devel/share/rviz_teleop_commander/cmake/rviz_teleop_commanderConfig-version.cmake
+Symlinking /home/kevin/catkin_ws/devel/share/rviz_teleop_commander/cmake/rviz_teleop_commanderConfig.cmake
+Symlinking /home/kevin/catkin_ws/devel/lib/librviz_teleop_commander.so
+Symlinking /home/kevin/catkin_ws/devel/lib/pkgconfig/rviz_teleop_commander.pc

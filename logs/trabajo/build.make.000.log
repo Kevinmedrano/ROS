@@ -1,0 +1,53 @@
+[35m[1mScanning dependencies of target _trabajo_generate_messages_check_deps_usuario[0m
+[  0%] Built target _trabajo_generate_messages_check_deps_usuario
+[35m[1mScanning dependencies of target _trabajo_generate_messages_check_deps_pos_usuario[0m
+[  0%] Built target _trabajo_generate_messages_check_deps_pos_usuario
+[35m[1mScanning dependencies of target _trabajo_generate_messages_check_deps_multiplicador[0m
+[  0%] Built target _trabajo_generate_messages_check_deps_multiplicador
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _trabajo_generate_messages_check_deps_inf_personal_usuario[0m
+[  0%] Built target _trabajo_generate_messages_check_deps_inf_personal_usuario
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target trabajo_generate_messages_lisp[0m
+[  4%] [34m[1mGenerating Lisp code from trabajo/usuario.msg[0m
+[  8%] [34m[1mGenerating Lisp code from trabajo/inf_personal_usuario.msg[0m
+[ 13%] [34m[1mGenerating Lisp code from trabajo/pos_usuario.msg[0m
+[ 17%] [34m[1mGenerating Lisp code from trabajo/multiplicador.srv[0m
+[ 17%] Built target trabajo_generate_messages_lisp
+[35m[1mScanning dependencies of target trabajo_generate_messages_py[0m
+[ 21%] [34m[1mGenerating Python from MSG trabajo/usuario[0m
+[ 26%] [34m[1mGenerating Python from MSG trabajo/inf_personal_usuario[0m
+[ 30%] [34m[1mGenerating Python from MSG trabajo/pos_usuario[0m
+[ 34%] [34m[1mGenerating Python code from SRV trabajo/multiplicador[0m
+[ 39%] [34m[1mGenerating Python msg __init__.py for trabajo[0m
+[ 43%] [34m[1mGenerating Python srv __init__.py for trabajo[0m
+[ 43%] Built target trabajo_generate_messages_py
+[35m[1mScanning dependencies of target trabajo_generate_messages_nodejs[0m
+[ 47%] [34m[1mGenerating Javascript code from trabajo/usuario.msg[0m
+[ 52%] [34m[1mGenerating Javascript code from trabajo/inf_personal_usuario.msg[0m
+[ 56%] [34m[1mGenerating Javascript code from trabajo/pos_usuario.msg[0m
+[35m[1mScanning dependencies of target trabajo_generate_messages_eus[0m
+[ 60%] [34m[1mGenerating EusLisp code from trabajo/usuario.msg[0m
+[ 65%] [34m[1mGenerating Javascript code from trabajo/multiplicador.srv[0m
+[ 65%] Built target trabajo_generate_messages_nodejs
+[35m[1mScanning dependencies of target trabajo_generate_messages_cpp[0m
+[ 69%] [34m[1mGenerating C++ code from trabajo/usuario.msg[0m
+[ 73%] [34m[1mGenerating EusLisp code from trabajo/inf_personal_usuario.msg[0m
+[ 78%] [34m[1mGenerating EusLisp code from trabajo/pos_usuario.msg[0m
+[ 82%] [34m[1mGenerating C++ code from trabajo/inf_personal_usuario.msg[0m
+[ 86%] [34m[1mGenerating EusLisp code from trabajo/multiplicador.srv[0m
+[ 91%] [34m[1mGenerating EusLisp manifest code for trabajo[0m
+[ 95%] [34m[1mGenerating C++ code from trabajo/pos_usuario.msg[0m
+[100%] [34m[1mGenerating C++ code from trabajo/multiplicador.srv[0m
+[100%] Built target trabajo_generate_messages_cpp
+[100%] Built target trabajo_generate_messages_eus
+[35m[1mScanning dependencies of target trabajo_generate_messages[0m
+[100%] Built target trabajo_generate_messages

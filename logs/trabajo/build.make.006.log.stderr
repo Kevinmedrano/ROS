@@ -1,6 +1,0 @@
-[01m[K/home/kevin/catkin_ws/src/trabajo/src/informacion_personal_nodo.cpp:4:20:[m[K [01;31m[Kfatal error: [m[Kvector.h: No existe el archivo o el directorio
-compilation terminated.
-make[2]: *** [CMakeFiles/nodo_informacion_personal.dir/src/informacion_personal_nodo.cpp.o] Error 1
-make[1]: *** [CMakeFiles/nodo_informacion_personal.dir/all] Error 2
-make[1]: *** Se espera a que terminen otras tareas....
-make: *** [all] Error 2

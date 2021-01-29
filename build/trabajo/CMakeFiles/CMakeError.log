@@ -1,55 +1,65 @@
-Determining if the pthread_create exist failed with the following output:
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5666d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5666d.dir/build.make CMakeFiles/cmTC_5666d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_35c91/fast && /usr/bin/make  -f CMakeFiles/cmTC_35c91.dir/build.make CMakeFiles/cmTC_35c91.dir/build
 make[1]: se entra en el directorio '/home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5666d.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_5666d.dir/CheckSymbolExists.c.o   -c /home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_5666d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5666d.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_5666d.dir/CheckSymbolExists.c.o  -o cmTC_5666d -rdynamic 
-CMakeFiles/cmTC_5666d.dir/CheckSymbolExists.c.o: En la función `main':
-CheckSymbolExists.c:(.text+0x16): referencia a `pthread_create' sin definir
+Building C object CMakeFiles/cmTC_35c91.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_35c91.dir/src.c.o -c /home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_35c91
+/home/kevin/cmake-3.19.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35c91.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_35c91.dir/src.c.o -o cmTC_35c91 
+CMakeFiles/cmTC_35c91.dir/src.c.o: En la función `main':
+src.c:(.text+0x3c): referencia a `pthread_create' sin definir
+src.c:(.text+0x48): referencia a `pthread_detach' sin definir
+src.c:(.text+0x54): referencia a `pthread_cancel' sin definir
+src.c:(.text+0x65): referencia a `pthread_join' sin definir
+src.c:(.text+0x79): referencia a `pthread_atfork' sin definir
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5666d.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_5666d'
-make[1]: *** [cmTC_5666d] Error 1
+CMakeFiles/cmTC_35c91.dir/build.make:105: fallo en las instrucciones para el objetivo 'cmTC_35c91'
+make[1]: *** [cmTC_35c91] Error 1
 make[1]: se sale del directorio '/home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_5666d/fast'
-make: *** [cmTC_5666d/fast] Error 2
+Makefile:140: fallo en las instrucciones para el objetivo 'cmTC_35c91/fast'
+make: *** [cmTC_35c91/fast] Error 2
 
-File /home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
+
+Source file was:
 #include <pthread.h>
 
-int main(int argc, char** argv)
+static void* test_func(void* data)
 {
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
   return 0;
-#endif
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_54921/fast"
-/usr/bin/make -f CMakeFiles/cmTC_54921.dir/build.make CMakeFiles/cmTC_54921.dir/build
+Run Build Command(s):/usr/bin/make cmTC_3d08b/fast && /usr/bin/make  -f CMakeFiles/cmTC_3d08b.dir/build.make CMakeFiles/cmTC_3d08b.dir/build
 make[1]: se entra en el directorio '/home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_54921.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_54921.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_54921
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54921.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_54921.dir/CheckFunctionExists.c.o  -o cmTC_54921 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_3d08b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_3d08b.dir/CheckFunctionExists.c.o -c /home/kevin/cmake-3.19.3-Linux-x86_64/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3d08b
+/home/kevin/cmake-3.19.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d08b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_3d08b.dir/CheckFunctionExists.c.o -o cmTC_3d08b  -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_54921.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_54921'
-make[1]: *** [cmTC_54921] Error 1
+CMakeFiles/cmTC_3d08b.dir/build.make:105: fallo en las instrucciones para el objetivo 'cmTC_3d08b'
+make[1]: *** [cmTC_3d08b] Error 1
 make[1]: se sale del directorio '/home/kevin/catkin_ws/build/trabajo/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_54921/fast'
-make: *** [cmTC_54921/fast] Error 2
+Makefile:140: fallo en las instrucciones para el objetivo 'cmTC_3d08b/fast'
+make: *** [cmTC_3d08b/fast] Error 2
+
 
 

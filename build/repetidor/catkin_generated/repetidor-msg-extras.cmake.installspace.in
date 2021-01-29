@@ -1,0 +1,2 @@
+set(repetidor_MESSAGE_FILES "")
+set(repetidor_SERVICE_FILES "")

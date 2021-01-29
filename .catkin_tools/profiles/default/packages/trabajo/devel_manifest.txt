@@ -25,10 +25,6 @@ trabajo
 /home/kevin/catkin_ws/devel/.private/trabajo/share/roseus/ros/trabajo/msg/usuario.l /home/kevin/catkin_ws/devel/share/roseus/ros/trabajo/msg/usuario.l
 /home/kevin/catkin_ws/devel/.private/trabajo/share/roseus/ros/trabajo/msg/pos_usuario.l /home/kevin/catkin_ws/devel/share/roseus/ros/trabajo/msg/pos_usuario.l
 /home/kevin/catkin_ws/devel/.private/trabajo/share/roseus/ros/trabajo/srv/multiplicador.l /home/kevin/catkin_ws/devel/share/roseus/ros/trabajo/srv/multiplicador.l
-/home/kevin/catkin_ws/devel/.private/trabajo/lib/trabajo/nodo_pos_usuario /home/kevin/catkin_ws/devel/lib/trabajo/nodo_pos_usuario
-/home/kevin/catkin_ws/devel/.private/trabajo/lib/trabajo/nodo_informacion_personal /home/kevin/catkin_ws/devel/lib/trabajo/nodo_informacion_personal
-/home/kevin/catkin_ws/devel/.private/trabajo/lib/trabajo/nodo_posicion_usuario /home/kevin/catkin_ws/devel/lib/trabajo/nodo_posicion_usuario
-/home/kevin/catkin_ws/devel/.private/trabajo/lib/trabajo/nodo_emocion_usuario /home/kevin/catkin_ws/devel/lib/trabajo/nodo_emocion_usuario
 /home/kevin/catkin_ws/devel/.private/trabajo/lib/python2.7/dist-packages/trabajo/__init__.py /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/__init__.py
 /home/kevin/catkin_ws/devel/.private/trabajo/lib/python2.7/dist-packages/trabajo/msg/_usuario.py /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_usuario.py
 /home/kevin/catkin_ws/devel/.private/trabajo/lib/python2.7/dist-packages/trabajo/msg/__init__.py /home/kevin/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/__init__.py
